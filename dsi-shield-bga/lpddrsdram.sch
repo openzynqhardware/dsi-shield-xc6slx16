@@ -1,0 +1,292 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Gekkio_Package_BGA:MT48LC16M16A2F4 U3
+U 1 1 5F264AB5
+P 7300 3250
+F 0 "U3" H 7300 4931 50  0000 C CNN
+F 1 "MT48LC16M16A2F4" H 7300 4840 50  0000 C CNN
+F 2 "Gekkio_Package_BGA:Micron_VFBGA-54_8x14mm_Layout9x9_P0.8mm" H 7300 1350 50  0001 C CNN
+F 3 "" H 7250 4100 50  0001 C CNN
+	1    7300 3250
+	1    0    0    -1  
+$EndComp
+Text Label 1900 2900 0    50   ~ 0
+SDRAM_A0
+Wire Wire Line
+	1800 2900 2300 2900
+Wire Wire Line
+	1800 3000 2300 3000
+Wire Wire Line
+	1800 3100 2300 3100
+Wire Wire Line
+	1800 3200 2300 3200
+Wire Wire Line
+	1800 3300 2300 3300
+Wire Wire Line
+	1800 3400 2300 3400
+Wire Wire Line
+	1800 3500 2300 3500
+Wire Wire Line
+	1800 3600 2300 3600
+Wire Wire Line
+	1800 3700 2300 3700
+Wire Wire Line
+	1800 3800 2300 3800
+Wire Wire Line
+	1800 3900 2300 3900
+Wire Wire Line
+	1800 4000 2300 4000
+Wire Wire Line
+	1800 4100 2300 4100
+Entry Wire Line
+	1700 4000 1800 4100
+Entry Wire Line
+	1700 3900 1800 4000
+Entry Wire Line
+	1700 3800 1800 3900
+Entry Wire Line
+	1700 3700 1800 3800
+Entry Wire Line
+	1700 3600 1800 3700
+Entry Wire Line
+	1700 3500 1800 3600
+Entry Wire Line
+	1700 3400 1800 3500
+Entry Wire Line
+	1700 3300 1800 3400
+Entry Wire Line
+	1700 3200 1800 3300
+Entry Wire Line
+	1700 3100 1800 3200
+Entry Wire Line
+	1700 3000 1800 3100
+Entry Wire Line
+	1700 2900 1800 3000
+Entry Wire Line
+	1700 2800 1800 2900
+Text Label 1900 3000 0    50   ~ 0
+SDRAM_A1
+Text Label 1900 3100 0    50   ~ 0
+SDRAM_A2
+Text Label 1900 3200 0    50   ~ 0
+SDRAM_A3
+Text Label 1900 3300 0    50   ~ 0
+SDRAM_A4
+Text Label 1900 3400 0    50   ~ 0
+SDRAM_A5
+Text Label 1900 3500 0    50   ~ 0
+SDRAM_A6
+Text Label 1900 3600 0    50   ~ 0
+SDRAM_A7
+Text Label 1900 3700 0    50   ~ 0
+SDRAM_A8
+Text Label 1900 3800 0    50   ~ 0
+SDRAM_A9
+Text Label 1900 3900 0    50   ~ 0
+SDRAM_A10
+Text Label 1900 4000 0    50   ~ 0
+SDRAM_A11
+Text Label 1900 4100 0    50   ~ 0
+SDRAM_A12
+Wire Wire Line
+	1800 4300 2300 4300
+Wire Wire Line
+	1800 4400 2300 4400
+Text Label 3950 3500 0    50   ~ 0
+SDRAM_DQ15
+Wire Wire Line
+	3900 3500 4450 3500
+Wire Wire Line
+	4450 3400 3900 3400
+Wire Wire Line
+	4450 3300 3900 3300
+Wire Wire Line
+	4450 3200 3900 3200
+Wire Wire Line
+	4450 3100 3900 3100
+Wire Wire Line
+	4450 3000 3900 3000
+Wire Wire Line
+	4450 2900 3900 2900
+Wire Wire Line
+	4450 2800 3900 2800
+Wire Wire Line
+	4450 2700 3900 2700
+Wire Wire Line
+	4450 2600 3900 2600
+Wire Wire Line
+	4450 2500 3900 2500
+Wire Wire Line
+	4450 2400 3900 2400
+Wire Wire Line
+	4450 2300 3900 2300
+Wire Wire Line
+	4450 2200 3900 2200
+Wire Wire Line
+	4450 2100 3900 2100
+Wire Wire Line
+	4450 2000 3900 2000
+Text Label 3950 3400 0    50   ~ 0
+SDRAM_DQ14
+Text Label 3950 3300 0    50   ~ 0
+SDRAM_DQ13
+Text Label 3950 3200 0    50   ~ 0
+SDRAM_DQ12
+Text Label 3950 3100 0    50   ~ 0
+SDRAM_DQ11
+Text Label 3950 3000 0    50   ~ 0
+SDRAM_DQ10
+Text Label 3950 2900 0    50   ~ 0
+SDRAM_DQ9
+Text Label 3950 2800 0    50   ~ 0
+SDRAM_DQ8
+Text Label 3950 2700 0    50   ~ 0
+SDRAM_DQ7
+Text Label 3950 2600 0    50   ~ 0
+SDRAM_DQ6
+Text Label 3950 2500 0    50   ~ 0
+SDRAM_DQ5
+Text Label 3950 2400 0    50   ~ 0
+SDRAM_DQ4
+Text Label 3950 2300 0    50   ~ 0
+SDRAM_DQ3
+Text Label 3950 2200 0    50   ~ 0
+SDRAM_DQ2
+Text Label 3950 2100 0    50   ~ 0
+SDRAM_DQ1
+Text Label 3950 2000 0    50   ~ 0
+SDRAM_DQ0
+Entry Wire Line
+	4450 3500 4550 3400
+Entry Wire Line
+	4450 3400 4550 3300
+Entry Wire Line
+	4450 3300 4550 3200
+Entry Wire Line
+	4450 3200 4550 3100
+Entry Wire Line
+	4450 3100 4550 3000
+Entry Wire Line
+	4450 3000 4550 2900
+Entry Wire Line
+	4450 2900 4550 2800
+Entry Wire Line
+	4450 2800 4550 2700
+Entry Wire Line
+	4450 2700 4550 2600
+Entry Wire Line
+	4450 2600 4550 2500
+Entry Wire Line
+	4450 2500 4550 2400
+Entry Wire Line
+	4450 2400 4550 2300
+Entry Wire Line
+	4450 2300 4550 2200
+Entry Wire Line
+	4450 2200 4550 2100
+Entry Wire Line
+	4450 2100 4550 2000
+Entry Wire Line
+	4450 2000 4550 1900
+Text GLabel 1000 2650 0    50   Input ~ 0
+SDRAM_A[0..12]
+Text GLabel 4950 1800 2    50   Input ~ 0
+SDRAM_DQ[0..15]
+Text Label 4550 1800 0    50   ~ 0
+SDRAM_DQ[0..15]
+Wire Bus Line
+	4550 1800 4950 1800
+Text Label 1050 2650 0    50   ~ 0
+SDRAM_A[0..12]
+Wire Wire Line
+	4450 3700 3900 3700
+Wire Wire Line
+	3900 3800 4450 3800
+Entry Wire Line
+	4450 3700 4550 3600
+Entry Wire Line
+	4450 3800 4550 3700
+Entry Wire Line
+	1700 4300 1800 4400
+Entry Wire Line
+	1700 4200 1800 4300
+Wire Bus Line
+	1700 4150 1150 4150
+Wire Bus Line
+	4550 3550 5050 3550
+Text GLabel 1150 4150 0    50   Input ~ 0
+SDRAM_BA[0..1]
+Text Label 1200 4150 0    50   ~ 0
+SDRAM_BA[0..1]
+Text Label 1850 4300 0    50   ~ 0
+SDRAM_BA0
+Text Label 1850 4400 0    50   ~ 0
+SDRAM_BA1
+Text Label 3950 3700 0    50   ~ 0
+SDRAM_DQM0
+Text Label 3950 3800 0    50   ~ 0
+SDRAM_DQM1
+Text GLabel 5050 3550 2    50   Input ~ 0
+SDRAM_DQM[0..1]
+Text Label 4550 3550 0    50   ~ 0
+SDRAM_DQM[0..1]
+Wire Wire Line
+	1850 2000 2300 2000
+Wire Wire Line
+	1850 2300 2300 2300
+Wire Wire Line
+	1850 2500 2300 2500
+Text GLabel 1850 2300 0    50   Input ~ 0
+SDRAM_CS_N
+Text GLabel 1850 2500 0    50   Input ~ 0
+SDRAM_RAS_N
+Text GLabel 2250 2600 0    50   Input ~ 0
+SDRAM_CAS_N
+$Comp
+L Gekkio_Package_BGA:MT48LC16M16A2F4 U2
+U 1 1 5F263279
+P 3100 3200
+F 0 "U2" H 3100 4881 50  0000 C CNN
+F 1 "MT48LC16M16A2F4" H 3100 4790 50  0000 C CNN
+F 2 "Gekkio_Package_BGA:Micron_VFBGA-54_8x14mm_Layout9x9_P0.8mm" H 3100 1300 50  0001 C CNN
+F 3 "" H 3050 4050 50  0001 C CNN
+	1    3100 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 2700 0    50   Input ~ 0
+SDRAM_WE_N
+Wire Wire Line
+	2250 2600 2300 2600
+Wire Wire Line
+	2250 2700 2300 2700
+Wire Bus Line
+	1000 2650 1700 2650
+Wire Wire Line
+	1850 2100 2300 2100
+Text GLabel 1850 2100 0    50   Input ~ 0
+SDRAM_CKE
+Text GLabel 1850 2000 0    50   Input ~ 0
+SDRAM_CLK
+Wire Bus Line
+	1700 4150 1700 4300
+Wire Bus Line
+	4550 3550 4550 3700
+Wire Bus Line
+	1700 2650 1700 4000
+Wire Bus Line
+	4550 1800 4550 3400
+$EndSCHEMATC
