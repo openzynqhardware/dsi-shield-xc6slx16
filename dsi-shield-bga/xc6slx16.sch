@@ -49,12 +49,12 @@ $EndComp
 $Comp
 L FPGA_Xilinx_Spartan6:XC6SLX16-FTG256 U1
 U 4 1 5F1DAB48
-P 8650 9300
-F 0 "U1" H 8650 10667 50  0000 C CNN
-F 1 "XC6SLX16-FTG256" H 8650 10576 50  0000 C CNN
-F 2 "Package_BGA:Xilinx_FTG256" H 8650 9300 50  0001 C CNN
-F 3 "" H 8650 9300 50  0000 C CNN
-	4    8650 9300
+P 7950 9350
+F 0 "U1" H 7950 10717 50  0000 C CNN
+F 1 "XC6SLX16-FTG256" H 7950 10626 50  0000 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 7950 9350 50  0001 C CNN
+F 3 "" H 7950 9350 50  0000 C CNN
+	4    7950 9350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -293,10 +293,364 @@ Text Label 14150 4500 0    50   ~ 0
 SDRAM_DQM0
 Text Label 14150 4400 0    50   ~ 0
 SDRAM_DQM1
+$Comp
+L power:GND #PWR0137
+U 1 1 5F18B863
+P 6800 10600
+F 0 "#PWR0137" H 6800 10350 50  0001 C CNN
+F 1 "GND" H 6805 10427 50  0000 C CNN
+F 2 "" H 6800 10600 50  0001 C CNN
+F 3 "" H 6800 10600 50  0001 C CNN
+	1    6800 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 5F18CF82
+P 9100 10600
+F 0 "#PWR0138" H 9100 10350 50  0001 C CNN
+F 1 "GND" H 9105 10427 50  0000 C CNN
+F 2 "" H 9100 10600 50  0001 C CNN
+F 3 "" H 9100 10600 50  0001 C CNN
+	1    9100 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 9250 6800 9250
+Wire Wire Line
+	6800 9250 6800 9350
+Wire Wire Line
+	6950 10450 6800 10450
+Connection ~ 6800 10450
+Wire Wire Line
+	6800 10450 6800 10600
+Wire Wire Line
+	6950 10350 6800 10350
+Connection ~ 6800 10350
+Wire Wire Line
+	6800 10350 6800 10450
+Wire Wire Line
+	6950 10250 6800 10250
+Connection ~ 6800 10250
+Wire Wire Line
+	6800 10250 6800 10350
+Wire Wire Line
+	6950 10150 6800 10150
+Connection ~ 6800 10150
+Wire Wire Line
+	6800 10150 6800 10250
+Wire Wire Line
+	6950 10050 6800 10050
+Connection ~ 6800 10050
+Wire Wire Line
+	6800 10050 6800 10150
+Wire Wire Line
+	6950 9950 6800 9950
+Connection ~ 6800 9950
+Wire Wire Line
+	6800 9950 6800 10050
+Wire Wire Line
+	6950 9850 6800 9850
+Connection ~ 6800 9850
+Wire Wire Line
+	6800 9850 6800 9950
+Wire Wire Line
+	8950 9250 9100 9250
+Wire Wire Line
+	9100 9250 9100 9350
+Wire Wire Line
+	8950 10450 9100 10450
+Connection ~ 9100 10450
+Wire Wire Line
+	9100 10450 9100 10600
+Wire Wire Line
+	8950 10350 9100 10350
+Connection ~ 9100 10350
+Wire Wire Line
+	9100 10350 9100 10450
+Wire Wire Line
+	8950 10250 9100 10250
+Connection ~ 9100 10250
+Wire Wire Line
+	9100 10250 9100 10350
+Wire Wire Line
+	8950 10150 9100 10150
+Connection ~ 9100 10150
+Wire Wire Line
+	9100 10150 9100 10250
+Wire Wire Line
+	8950 10050 9100 10050
+Connection ~ 9100 10050
+Wire Wire Line
+	9100 10050 9100 10150
+Wire Wire Line
+	8950 9950 9100 9950
+Connection ~ 9100 9950
+Wire Wire Line
+	9100 9950 9100 10050
+Wire Wire Line
+	8950 9850 9100 9850
+Connection ~ 9100 9850
+Wire Wire Line
+	9100 9850 9100 9950
+Wire Wire Line
+	8950 9750 9100 9750
+Connection ~ 9100 9750
+Wire Wire Line
+	9100 9750 9100 9850
+Wire Wire Line
+	8950 9650 9100 9650
+Connection ~ 9100 9650
+Wire Wire Line
+	9100 9650 9100 9750
+Wire Wire Line
+	8950 9550 9100 9550
+Connection ~ 9100 9550
+Wire Wire Line
+	9100 9550 9100 9650
+Wire Wire Line
+	8950 9450 9100 9450
+Connection ~ 9100 9450
+Wire Wire Line
+	9100 9450 9100 9550
+Wire Wire Line
+	8950 9350 9100 9350
+Connection ~ 9100 9350
+Wire Wire Line
+	9100 9350 9100 9450
+Wire Wire Line
+	6950 9350 6800 9350
+Connection ~ 6800 9350
+Wire Wire Line
+	6800 9350 6800 9450
+Wire Wire Line
+	6950 9450 6800 9450
+Connection ~ 6800 9450
+Wire Wire Line
+	6800 9450 6800 9550
+Wire Wire Line
+	6950 9550 6800 9550
+Connection ~ 6800 9550
+Wire Wire Line
+	6800 9550 6800 9650
+Wire Wire Line
+	6950 9650 6800 9650
+Connection ~ 6800 9650
+Wire Wire Line
+	6800 9650 6800 9750
+Wire Wire Line
+	6950 9750 6800 9750
+Connection ~ 6800 9750
+Wire Wire Line
+	6800 9750 6800 9850
+Wire Wire Line
+	6800 8000 6800 8250
+Wire Wire Line
+	6800 8950 6950 8950
+Wire Wire Line
+	6950 8850 6800 8850
+Connection ~ 6800 8850
+Wire Wire Line
+	6800 8850 6800 8950
+Wire Wire Line
+	6800 8750 6950 8750
+Connection ~ 6800 8750
+Wire Wire Line
+	6800 8750 6800 8850
+Wire Wire Line
+	6950 8650 6800 8650
+Connection ~ 6800 8650
+Wire Wire Line
+	6800 8650 6800 8750
+Wire Wire Line
+	6950 8550 6800 8550
+Connection ~ 6800 8550
+Wire Wire Line
+	6800 8550 6800 8650
+Wire Wire Line
+	6950 8450 6800 8450
+Connection ~ 6800 8450
+Wire Wire Line
+	6800 8450 6800 8550
+Wire Wire Line
+	6950 8350 6800 8350
+Connection ~ 6800 8350
+Wire Wire Line
+	6800 8350 6800 8450
+Wire Wire Line
+	6950 8250 6800 8250
+Connection ~ 6800 8250
+Wire Wire Line
+	6800 8250 6800 8350
+Wire Wire Line
+	9100 8000 9100 8250
+Wire Wire Line
+	9100 8950 8950 8950
+Wire Wire Line
+	8950 8850 9100 8850
+Connection ~ 9100 8850
+Wire Wire Line
+	9100 8850 9100 8950
+Wire Wire Line
+	8950 8750 9100 8750
+Connection ~ 9100 8750
+Wire Wire Line
+	9100 8750 9100 8850
+Wire Wire Line
+	8950 8650 9100 8650
+Connection ~ 9100 8650
+Wire Wire Line
+	9100 8650 9100 8750
+Wire Wire Line
+	8950 8550 9100 8550
+Connection ~ 9100 8550
+Wire Wire Line
+	9100 8550 9100 8650
+Wire Wire Line
+	8950 8450 9100 8450
+Connection ~ 9100 8450
+Wire Wire Line
+	9100 8450 9100 8550
+Wire Wire Line
+	8950 8350 9100 8350
+Connection ~ 9100 8350
+Wire Wire Line
+	9100 8350 9100 8450
+Wire Wire Line
+	8950 8250 9100 8250
+Connection ~ 9100 8250
+Wire Wire Line
+	9100 8250 9100 8350
+Wire Wire Line
+	10350 1050 10500 1050
+Wire Wire Line
+	10800 1050 10800 1200
+Wire Wire Line
+	10500 1200 10500 1050
+Connection ~ 10500 1050
+Wire Wire Line
+	10500 1050 10600 1050
+Wire Wire Line
+	10600 1200 10600 1050
+Connection ~ 10600 1050
+Wire Wire Line
+	10600 1050 10700 1050
+Wire Wire Line
+	10700 1200 10700 1050
+Connection ~ 10700 1050
+Wire Wire Line
+	10700 1050 10800 1050
+Wire Wire Line
+	13900 1050 13700 1050
+Wire Wire Line
+	13300 1050 13300 1200
+Wire Wire Line
+	13700 1200 13700 1050
+Connection ~ 13700 1050
+Wire Wire Line
+	13700 1050 13600 1050
+Wire Wire Line
+	13600 1200 13600 1050
+Connection ~ 13600 1050
+Wire Wire Line
+	13600 1050 13500 1050
+Wire Wire Line
+	13500 1200 13500 1050
+Connection ~ 13500 1050
+Wire Wire Line
+	13500 1050 13400 1050
+Wire Wire Line
+	13400 1200 13400 1050
+Connection ~ 13400 1050
+Wire Wire Line
+	13400 1050 13300 1050
+Wire Wire Line
+	5300 1000 5150 1000
+Wire Wire Line
+	4650 1000 4650 1150
+Wire Wire Line
+	4750 1150 4750 1000
+Connection ~ 4750 1000
+Wire Wire Line
+	4750 1000 4650 1000
+Wire Wire Line
+	4850 1150 4850 1000
+Connection ~ 4850 1000
+Wire Wire Line
+	4850 1000 4750 1000
+Wire Wire Line
+	4950 1150 4950 1000
+Connection ~ 4950 1000
+Wire Wire Line
+	4950 1000 4850 1000
+Wire Wire Line
+	5050 1150 5050 1000
+Connection ~ 5050 1000
+Wire Wire Line
+	5050 1000 4950 1000
+Wire Wire Line
+	5150 1150 5150 1000
+Connection ~ 5150 1000
+Wire Wire Line
+	5150 1000 5050 1000
+Wire Wire Line
+	1800 1000 1950 1000
+Wire Wire Line
+	2350 1000 2350 1150
+Wire Wire Line
+	2250 1150 2250 1000
+Connection ~ 2250 1000
+Wire Wire Line
+	2250 1000 2350 1000
+Wire Wire Line
+	2150 1150 2150 1000
+Connection ~ 2150 1000
+Wire Wire Line
+	2150 1000 2250 1000
+Wire Wire Line
+	2050 1150 2050 1000
+Connection ~ 2050 1000
+Wire Wire Line
+	2050 1000 2150 1000
+Wire Wire Line
+	1950 1150 1950 1000
 Wire Bus Line
 	15150 4250 15150 4400
 Wire Bus Line
 	14900 4900 14900 7200
 Wire Bus Line
 	14900 2300 14900 4200
+Connection ~ 1950 1000
+Wire Wire Line
+	1950 1000 2050 1000
+$Comp
+L dsi_shield:M25P80-VMN6P IC2
+U 1 1 5F2DAC51
+P 11900 8650
+F 0 "IC2" H 12250 8815 50  0000 C CNN
+F 1 "M25P80-VMN6P" H 12250 8724 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 11900 7770 60  0001 L CNN
+F 3 "\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\M25P80-VMN6P.pdf" H 11900 7680 60  0001 L CNN
+F 4 "M25P80-VMN6P" H 11900 7590 60  0001 L CNN "字段4"
+F 5 "Standard" H 11900 7500 60  0001 L CNN "字段5"
+F 6 "Standard" H 11900 7410 60  0001 L CNN "字段6"
+F 7 "M25P80-VMN6P" H 11900 7320 60  0001 L CNN "字段7"
+F 8 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 11900 7230 60  0001 L CNN "字段8"
+F 9 "8 Mbit, 2.7V to 3.6V Serial Flash Embedded Memory" H 11900 7140 60  0001 L CNN "字段9"
+F 10 "NUMONYX" H 11900 7050 60  0001 L CNN "字段10"
+F 11 "M25P80-VMN6P" H 11900 6960 60  0001 L CNN "字段11"
+F 12 "8" H 11900 6870 60  0001 L CNN "字段12"
+F 13 "SOIC8" H 11900 6780 60  0001 L CNN "字段13"
+F 14 "Yes" H 11900 6690 60  0001 L CNN "字段14"
+F 15 "No" H 11900 6600 60  0001 L CNN "字段15"
+F 16 "Yes" H 11900 6510 60  0001 L CNN "字段16"
+F 17 "1.75mm" H 11900 6420 60  0001 L CNN "字段17"
+F 18 "CERN DEM JLC" H 11900 6330 60  0001 L CNN "字段18"
+F 19 "10/5/2011" H 11900 6240 60  0001 L CNN "字段19"
+F 20 "10/5/2011" H 11900 6150 60  0001 L CNN "字段20"
+F 21 "Logic" H 11900 6060 60  0001 L CNN "字段21"
+F 22 "Yes" H 11900 5970 60  0001 L CNN "字段22"
+	1    11900 8650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
