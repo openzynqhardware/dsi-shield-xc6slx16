@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -13,176 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 5F176536
-P 1750 1800
-F 0 "RN2" V 1333 1800 50  0000 C CNN
-F 1 "22" V 1424 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2025 1800 50  0001 C CNN
-F 3 "~" H 1750 1800 50  0001 C CNN
-	1    1750 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN5
-U 1 1 5F1771BA
-P 2700 1800
-F 0 "RN5" V 2283 1800 50  0000 C CNN
-F 1 "51" V 2374 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2975 1800 50  0001 C CNN
-F 3 "~" H 2700 1800 50  0001 C CNN
-	1    2700 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN1
-U 1 1 5F1785A2
-P 1750 1050
-F 0 "RN1" V 1333 1050 50  0000 C CNN
-F 1 "160" V 1424 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2025 1050 50  0001 C CNN
-F 3 "~" H 1750 1050 50  0001 C CNN
-	1    1750 1050
-	0    1    1    0   
-$EndComp
-Text GLabel 1550 1600 0    50   Input ~ 0
-DSI_LP_P0
-Text GLabel 1550 1700 0    50   Input ~ 0
-DSI_LP_N0
-Wire Wire Line
-	1950 1600 2350 1600
-Wire Wire Line
-	1950 1700 2250 1700
-Text GLabel 1550 850  0    50   Input ~ 0
-DSI_HS_P0
-Text GLabel 1550 950  0    50   Input ~ 0
-DSI_HS_N0
-Wire Wire Line
-	1950 850  2350 850 
-Wire Wire Line
-	2350 850  2350 1600
-Connection ~ 2350 1600
-Wire Wire Line
-	2350 1600 2500 1600
-Wire Wire Line
-	1950 1800 2150 1800
-Wire Wire Line
-	1950 1900 2050 1900
-Wire Wire Line
-	1950 950  2250 950 
-Wire Wire Line
-	2250 950  2250 1700
-Connection ~ 2250 1700
-Wire Wire Line
-	2250 1700 2500 1700
-Wire Wire Line
-	1950 1050 2150 1050
-Wire Wire Line
-	2150 1050 2150 1800
-Connection ~ 2150 1800
-Wire Wire Line
-	2150 1800 2500 1800
-Wire Wire Line
-	1950 1150 2050 1150
-Wire Wire Line
-	2050 1150 2050 1900
-Connection ~ 2050 1900
-Wire Wire Line
-	2050 1900 2500 1900
-Text GLabel 1550 1050 0    50   Input ~ 0
-DSI_HS_P1
-Text GLabel 1550 1150 0    50   Input ~ 0
-DSI_HS_N1
-Text GLabel 1550 1800 0    50   Input ~ 0
-DSI_LP_P1
-Text GLabel 1550 1900 0    50   Input ~ 0
-DSI_LP_N1
-$Comp
-L Device:R_Pack04 RN4
-U 1 1 5F190327
-P 1750 3700
-F 0 "RN4" V 1333 3700 50  0000 C CNN
-F 1 "22" V 1424 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2025 3700 50  0001 C CNN
-F 3 "~" H 1750 3700 50  0001 C CNN
-	1    1750 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN6
-U 1 1 5F19032D
-P 2700 3700
-F 0 "RN6" V 2283 3700 50  0000 C CNN
-F 1 "51" V 2374 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2975 3700 50  0001 C CNN
-F 3 "~" H 2700 3700 50  0001 C CNN
-	1    2700 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN3
-U 1 1 5F190333
-P 1750 2950
-F 0 "RN3" V 1333 2950 50  0000 C CNN
-F 1 "160" V 1424 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2025 2950 50  0001 C CNN
-F 3 "~" H 1750 2950 50  0001 C CNN
-	1    1750 2950
-	0    1    1    0   
-$EndComp
-Text GLabel 1550 3500 0    50   Input ~ 0
-DSI_LP_P2
-Text GLabel 1550 3600 0    50   Input ~ 0
-DSI_LP_N2
-Wire Wire Line
-	1950 3500 2350 3500
-Wire Wire Line
-	1950 3600 2250 3600
-Text GLabel 1550 2750 0    50   Input ~ 0
-DSI_HS_P2
-Text GLabel 1550 2850 0    50   Input ~ 0
-DSI_HS_N2
-Wire Wire Line
-	1950 2750 2350 2750
-Wire Wire Line
-	2350 2750 2350 3500
-Connection ~ 2350 3500
-Wire Wire Line
-	2350 3500 2500 3500
-Wire Wire Line
-	1950 3700 2150 3700
-Wire Wire Line
-	1950 3800 2050 3800
-Wire Wire Line
-	1950 2850 2250 2850
-Wire Wire Line
-	2250 2850 2250 3600
-Connection ~ 2250 3600
-Wire Wire Line
-	2250 3600 2500 3600
-Wire Wire Line
-	1950 2950 2150 2950
-Wire Wire Line
-	2150 2950 2150 3700
-Connection ~ 2150 3700
-Wire Wire Line
-	2150 3700 2500 3700
-Wire Wire Line
-	1950 3050 2050 3050
-Wire Wire Line
-	2050 3050 2050 3800
-Connection ~ 2050 3800
-Wire Wire Line
-	2050 3800 2500 3800
-Text GLabel 1550 2950 0    50   Input ~ 0
-DSI_HS_P3
-Text GLabel 1550 3050 0    50   Input ~ 0
-DSI_HS_N3
-Text GLabel 1550 3700 0    50   Input ~ 0
-DSI_LP_P3
-Text GLabel 1550 3800 0    50   Input ~ 0
-DSI_LP_N3
 $Comp
 L dsi_shield:Res1 R20
 U 1 1 5F192E01
@@ -324,114 +154,6 @@ DSI_LP_CLK_P
 Text GLabel 1650 5550 0    50   Input ~ 0
 DSI_LP_CLK_N
 Wire Wire Line
-	2350 1600 2350 2050
-Wire Wire Line
-	2350 2050 2600 2050
-Wire Wire Line
-	2250 1700 2250 2150
-Wire Wire Line
-	2250 2150 2600 2150
-Wire Wire Line
-	2150 1800 2150 2250
-Wire Wire Line
-	2150 2250 2600 2250
-Wire Wire Line
-	2050 1900 2050 2350
-Wire Wire Line
-	2050 2350 2600 2350
-Text GLabel 2600 2050 2    50   Input ~ 0
-DSI_L0_P
-Text GLabel 2600 2150 2    50   Input ~ 0
-DSI_L0_N
-Text GLabel 2600 2250 2    50   Input ~ 0
-DSI_L1_P
-Text GLabel 2600 2350 2    50   Input ~ 0
-DSI_L1_N
-$Comp
-L power:GND #PWR0157
-U 1 1 5FB9492E
-P 3150 1950
-F 0 "#PWR0157" H 3150 1700 50  0001 C CNN
-F 1 "GND" H 3155 1777 50  0000 C CNN
-F 2 "" H 3150 1950 50  0001 C CNN
-F 3 "" H 3150 1950 50  0001 C CNN
-	1    3150 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 1600 3150 1600
-Wire Wire Line
-	3150 1600 3150 1700
-Wire Wire Line
-	2900 1900 3150 1900
-Connection ~ 3150 1900
-Wire Wire Line
-	3150 1900 3150 1950
-Wire Wire Line
-	2900 1800 3150 1800
-Connection ~ 3150 1800
-Wire Wire Line
-	3150 1800 3150 1900
-Wire Wire Line
-	2900 1700 3150 1700
-Connection ~ 3150 1700
-Wire Wire Line
-	3150 1700 3150 1800
-Wire Wire Line
-	2350 3500 2350 3950
-Wire Wire Line
-	2350 3950 2600 3950
-Wire Wire Line
-	2250 3600 2250 4050
-Wire Wire Line
-	2250 4050 2600 4050
-Wire Wire Line
-	2150 3700 2150 4150
-Wire Wire Line
-	2150 4150 2600 4150
-Wire Wire Line
-	2050 3800 2050 4250
-Wire Wire Line
-	2050 4250 2600 4250
-Text GLabel 2600 3950 2    50   Input ~ 0
-DSI_L2_P
-Text GLabel 2600 4050 2    50   Input ~ 0
-DSI_L2_N
-Text GLabel 2600 4150 2    50   Input ~ 0
-DSI_L3_P
-Text GLabel 2600 4250 2    50   Input ~ 0
-DSI_L3_N
-$Comp
-L power:GND #PWR0158
-U 1 1 5FBA3946
-P 3150 3850
-F 0 "#PWR0158" H 3150 3600 50  0001 C CNN
-F 1 "GND" H 3155 3677 50  0000 C CNN
-F 2 "" H 3150 3850 50  0001 C CNN
-F 3 "" H 3150 3850 50  0001 C CNN
-	1    3150 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 3500 3150 3500
-Wire Wire Line
-	3150 3500 3150 3600
-Wire Wire Line
-	2900 3800 3150 3800
-Connection ~ 3150 3800
-Wire Wire Line
-	3150 3800 3150 3850
-Wire Wire Line
-	2900 3700 3150 3700
-Connection ~ 3150 3700
-Wire Wire Line
-	3150 3700 3150 3800
-Wire Wire Line
-	2900 3600 3150 3600
-Connection ~ 3150 3600
-Wire Wire Line
-	3150 3600 3150 3700
-Wire Wire Line
 	2350 5350 2350 5800
 Wire Wire Line
 	2350 5800 2800 5800
@@ -463,4 +185,871 @@ Wire Wire Line
 Connection ~ 3100 5550
 Wire Wire Line
 	3100 5550 3250 5550
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J2
+U 1 1 5FA0C087
+P 6550 2300
+F 0 "J2" H 6600 1375 50  0000 C CNN
+F 1 "Conn_02x15_Odd_Even" H 6600 1466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 6550 2300 50  0001 C CNN
+F 3 "~" H 6550 2300 50  0001 C CNN
+	1    6550 2300
+	-1   0    0    1   
+$EndComp
+Text GLabel 6250 1700 0    50   Input ~ 0
+DSI_L0_P
+Text GLabel 6250 1800 0    50   Input ~ 0
+DSI_L0_N
+Text GLabel 6250 2000 0    50   Input ~ 0
+DSI_L1_P
+Text GLabel 6250 2100 0    50   Input ~ 0
+DSI_L1_N
+Text GLabel 6250 2300 0    50   Input ~ 0
+DSI_CLK_P
+Text GLabel 6250 2400 0    50   Input ~ 0
+DSI_CLK_N
+Text GLabel 6250 2600 0    50   Input ~ 0
+DSI_L2_P
+Text GLabel 6250 2700 0    50   Input ~ 0
+DSI_L2_N
+Text GLabel 6250 2900 0    50   Input ~ 0
+DSI_L3_P
+Text GLabel 6250 3000 0    50   Input ~ 0
+DSI_L3_N
+$Comp
+L power:GND #PWR0180
+U 1 1 5FA13D1D
+P 6250 1600
+F 0 "#PWR0180" H 6250 1350 50  0001 C CNN
+F 1 "GND" H 6255 1427 50  0000 C CNN
+F 2 "" H 6250 1600 50  0001 C CNN
+F 3 "" H 6250 1600 50  0001 C CNN
+	1    6250 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0181
+U 1 1 5FA1472C
+P 6250 1900
+F 0 "#PWR0181" H 6250 1650 50  0001 C CNN
+F 1 "GND" H 6255 1727 50  0000 C CNN
+F 2 "" H 6250 1900 50  0001 C CNN
+F 3 "" H 6250 1900 50  0001 C CNN
+	1    6250 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 5FA14B48
+P 6250 2200
+F 0 "#PWR0182" H 6250 1950 50  0001 C CNN
+F 1 "GND" H 6255 2027 50  0000 C CNN
+F 2 "" H 6250 2200 50  0001 C CNN
+F 3 "" H 6250 2200 50  0001 C CNN
+	1    6250 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0183
+U 1 1 5FA15162
+P 6250 2500
+F 0 "#PWR0183" H 6250 2250 50  0001 C CNN
+F 1 "GND" H 6255 2327 50  0000 C CNN
+F 2 "" H 6250 2500 50  0001 C CNN
+F 3 "" H 6250 2500 50  0001 C CNN
+	1    6250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0184
+U 1 1 5FA15606
+P 6250 2800
+F 0 "#PWR0184" H 6250 2550 50  0001 C CNN
+F 1 "GND" H 6255 2627 50  0000 C CNN
+F 2 "" H 6250 2800 50  0001 C CNN
+F 3 "" H 6250 2800 50  0001 C CNN
+	1    6250 2800
+	0    1    1    0   
+$EndComp
+Text GLabel 6750 1600 2    50   Input ~ 0
+DSI_RESET_N
+Text GLabel 6750 1700 2    50   Input ~ 0
+DSI_GPIO0
+Text GLabel 6750 1800 2    50   Input ~ 0
+DSI_GPIO1
+Text GLabel 6750 3000 2    50   Input ~ 0
+LCD_BL_FB
+Text GLabel 6750 2900 2    50   Input ~ 0
+LCD_BOOST_FB
+Text GLabel 6750 2700 2    50   Input ~ 0
+LCD_BL_A
+$Comp
+L power:GND #PWR0185
+U 1 1 5FA16B36
+P 6750 2800
+F 0 "#PWR0185" H 6750 2550 50  0001 C CNN
+F 1 "GND" H 6755 2627 50  0000 C CNN
+F 2 "" H 6750 2800 50  0001 C CNN
+F 3 "" H 6750 2800 50  0001 C CNN
+	1    6750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0186
+U 1 1 5FA178C3
+P 6750 2600
+F 0 "#PWR0186" H 6750 2350 50  0001 C CNN
+F 1 "GND" H 6755 2427 50  0000 C CNN
+F 2 "" H 6750 2600 50  0001 C CNN
+F 3 "" H 6750 2600 50  0001 C CNN
+	1    6750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0187
+U 1 1 5FA17FCB
+P 6750 2500
+F 0 "#PWR0187" H 6750 2250 50  0001 C CNN
+F 1 "GND" H 6755 2327 50  0000 C CNN
+F 2 "" H 6750 2500 50  0001 C CNN
+F 3 "" H 6750 2500 50  0001 C CNN
+	1    6750 2500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6750 2300 2    50   Input ~ 0
+LCD_PVDRV
+Text GLabel 6750 2400 2    50   Input ~ 0
+LCD_MVDRV
+$Comp
+L power:+3V3 #PWR0188
+U 1 1 5FA18B89
+P 6750 1900
+F 0 "#PWR0188" H 6750 1750 50  0001 C CNN
+F 1 "+3V3" V 6765 2028 50  0000 L CNN
+F 2 "" H 6750 1900 50  0001 C CNN
+F 3 "" H 6750 1900 50  0001 C CNN
+	1    6750 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+2V5 #PWR0189
+U 1 1 5FA1A46E
+P 6750 2000
+F 0 "#PWR0189" H 6750 1850 50  0001 C CNN
+F 1 "+2V5" V 6765 2128 50  0000 L CNN
+F 2 "" H 6750 2000 50  0001 C CNN
+F 3 "" H 6750 2000 50  0001 C CNN
+	1    6750 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V8 #PWR0190
+U 1 1 5FA1AE95
+P 6750 2100
+F 0 "#PWR0190" H 6750 1950 50  0001 C CNN
+F 1 "+1V8" V 6765 2228 50  0000 L CNN
+F 2 "" H 6750 2100 50  0001 C CNN
+F 3 "" H 6750 2100 50  0001 C CNN
+	1    6750 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0191
+U 1 1 5FA1B736
+P 6750 2200
+F 0 "#PWR0191" H 6750 2050 50  0001 C CNN
+F 1 "+3V3" V 6765 2328 50  0000 L CNN
+F 2 "" H 6750 2200 50  0001 C CNN
+F 3 "" H 6750 2200 50  0001 C CNN
+	1    6750 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Res1 R46
+U 1 1 5FAB2533
+P 4700 3350
+F 0 "R46" H 4700 3300 50  0000 C CNN
+F 1 "160" H 4900 3200 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 2940 60  0001 L CNN
+F 3 "" H 4700 2850 60  0001 L CNN
+F 4 "8-Jun-2000" H 4700 2760 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4700 2670 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4700 2580 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4700 2490 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4700 2400 60  0001 L CNN "字段8"
+F 9 "100" H 4800 3346 50  0001 C CNN "字段9"
+F 10 "Yes" H 4700 2220 60  0001 L CNN "字段10"
+F 11 "=Value" H 4700 2130 60  0001 L CNN "字段11"
+	1    4700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R47
+U 1 1 5FAB2541
+P 4700 3550
+F 0 "R47" H 4700 3500 50  0000 C CNN
+F 1 "160" H 4900 3400 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 3140 60  0001 L CNN
+F 3 "" H 4700 3050 60  0001 L CNN
+F 4 "8-Jun-2000" H 4700 2960 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4700 2870 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4700 2780 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4700 2690 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4700 2600 60  0001 L CNN "字段8"
+F 9 "100" H 4800 3546 50  0001 C CNN "字段9"
+F 10 "Yes" H 4700 2420 60  0001 L CNN "字段10"
+F 11 "=Value" H 4700 2330 60  0001 L CNN "字段11"
+	1    4700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R48
+U 1 1 5FAB254F
+P 4700 3900
+F 0 "R48" H 4750 3850 50  0000 C CNN
+F 1 "22" H 4900 3750 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 3490 60  0001 L CNN
+F 3 "" H 4700 3400 60  0001 L CNN
+F 4 "8-Jun-2000" H 4700 3310 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4700 3220 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4700 3130 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4700 3040 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4700 2950 60  0001 L CNN "字段8"
+F 9 "100" H 4800 3896 50  0001 C CNN "字段9"
+F 10 "Yes" H 4700 2770 60  0001 L CNN "字段10"
+F 11 "=Value" H 4700 2680 60  0001 L CNN "字段11"
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R49
+U 1 1 5FAB255D
+P 4700 4100
+F 0 "R49" H 4750 4050 50  0000 C CNN
+F 1 "22" H 4900 3950 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 3690 60  0001 L CNN
+F 3 "" H 4700 3600 60  0001 L CNN
+F 4 "8-Jun-2000" H 4700 3510 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4700 3420 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4700 3330 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4700 3240 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4700 3150 60  0001 L CNN "字段8"
+F 9 "100" H 4800 4096 50  0001 C CNN "字段9"
+F 10 "Yes" H 4700 2970 60  0001 L CNN "字段10"
+F 11 "=Value" H 4700 2880 60  0001 L CNN "字段11"
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R50
+U 1 1 5FAB256B
+P 5600 3900
+F 0 "R50" H 5600 3850 50  0000 C CNN
+F 1 "51" H 5800 3750 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 3490 60  0001 L CNN
+F 3 "" H 5600 3400 60  0001 L CNN
+F 4 "8-Jun-2000" H 5600 3310 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 5600 3220 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 5600 3130 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 5600 3040 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 5600 2950 60  0001 L CNN "字段8"
+F 9 "100" H 5700 3896 50  0001 C CNN "字段9"
+F 10 "Yes" H 5600 2770 60  0001 L CNN "字段10"
+F 11 "=Value" H 5600 2680 60  0001 L CNN "字段11"
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R51
+U 1 1 5FAB2579
+P 5600 4100
+F 0 "R51" H 5600 4050 50  0000 C CNN
+F 1 "51" H 5800 3950 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 3690 60  0001 L CNN
+F 3 "" H 5600 3600 60  0001 L CNN
+F 4 "8-Jun-2000" H 5600 3510 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 5600 3420 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 5600 3330 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 5600 3240 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 5600 3150 60  0001 L CNN "字段8"
+F 9 "100" H 5700 4096 50  0001 C CNN "字段9"
+F 10 "Yes" H 5600 2970 60  0001 L CNN "字段10"
+F 11 "=Value" H 5600 2880 60  0001 L CNN "字段11"
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4000 5300 4000
+Wire Wire Line
+	5000 4200 5100 4200
+Wire Wire Line
+	5000 3650 5100 3650
+Wire Wire Line
+	5100 3650 5100 4200
+Connection ~ 5100 4200
+Wire Wire Line
+	5100 4200 5500 4200
+Wire Wire Line
+	5000 3450 5300 3450
+Wire Wire Line
+	5300 3450 5300 4000
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4000 5500 4000
+Text GLabel 4600 3450 0    50   Input ~ 0
+DSI_HS_0_P
+Text GLabel 4600 3650 0    50   Input ~ 0
+DSI_HS_0_N
+Text GLabel 4600 4000 0    50   Input ~ 0
+DSI_LP_0_P
+Text GLabel 4600 4200 0    50   Input ~ 0
+DSI_LP_0_N
+Wire Wire Line
+	5300 4000 5300 4450
+Wire Wire Line
+	5300 4450 5750 4450
+Wire Wire Line
+	5100 4200 5100 4600
+Wire Wire Line
+	5100 4600 5750 4600
+Text GLabel 5750 4450 2    50   Input ~ 0
+DSI_L0_P
+Text GLabel 5750 4600 2    50   Input ~ 0
+DSI_L0_N
+$Comp
+L power:GND #PWR0157
+U 1 1 5FAB2593
+P 6200 4200
+F 0 "#PWR0157" H 6200 3950 50  0001 C CNN
+F 1 "GND" V 6205 4072 50  0000 R CNN
+F 2 "" H 6200 4200 50  0001 C CNN
+F 3 "" H 6200 4200 50  0001 C CNN
+	1    6200 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 4200 6050 4200
+Wire Wire Line
+	5900 4000 6050 4000
+Wire Wire Line
+	6050 4000 6050 4200
+Connection ~ 6050 4200
+Wire Wire Line
+	6050 4200 6200 4200
+$Comp
+L dsi_shield:Res1 R52
+U 1 1 5FAB7A51
+P 8450 3450
+F 0 "R52" H 8450 3400 50  0000 C CNN
+F 1 "160" H 8650 3300 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 3040 60  0001 L CNN
+F 3 "" H 8450 2950 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 2860 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 2770 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 2680 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 2590 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 2500 60  0001 L CNN "字段8"
+F 9 "100" H 8550 3446 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 2320 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 2230 60  0001 L CNN "字段11"
+	1    8450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R53
+U 1 1 5FAB7A5F
+P 8450 3650
+F 0 "R53" H 8450 3600 50  0000 C CNN
+F 1 "160" H 8650 3500 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 3240 60  0001 L CNN
+F 3 "" H 8450 3150 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 3060 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 2970 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 2880 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 2790 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 2700 60  0001 L CNN "字段8"
+F 9 "100" H 8550 3646 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 2520 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 2430 60  0001 L CNN "字段11"
+	1    8450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R54
+U 1 1 5FAB7A6D
+P 8450 4000
+F 0 "R54" H 8500 3950 50  0000 C CNN
+F 1 "22" H 8650 3850 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 3590 60  0001 L CNN
+F 3 "" H 8450 3500 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 3410 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 3320 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 3230 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 3140 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 3050 60  0001 L CNN "字段8"
+F 9 "100" H 8550 3996 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 2870 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 2780 60  0001 L CNN "字段11"
+	1    8450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R55
+U 1 1 5FAB7A7B
+P 8450 4200
+F 0 "R55" H 8500 4150 50  0000 C CNN
+F 1 "22" H 8650 4050 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 3790 60  0001 L CNN
+F 3 "" H 8450 3700 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 3610 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 3520 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 3430 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 3340 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 3250 60  0001 L CNN "字段8"
+F 9 "100" H 8550 4196 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 3070 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 2980 60  0001 L CNN "字段11"
+	1    8450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R56
+U 1 1 5FAB7A89
+P 9350 4000
+F 0 "R56" H 9350 3950 50  0000 C CNN
+F 1 "51" H 9550 3850 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 3590 60  0001 L CNN
+F 3 "" H 9350 3500 60  0001 L CNN
+F 4 "8-Jun-2000" H 9350 3410 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 9350 3320 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 9350 3230 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 9350 3140 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 9350 3050 60  0001 L CNN "字段8"
+F 9 "100" H 9450 3996 50  0001 C CNN "字段9"
+F 10 "Yes" H 9350 2870 60  0001 L CNN "字段10"
+F 11 "=Value" H 9350 2780 60  0001 L CNN "字段11"
+	1    9350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R57
+U 1 1 5FAB7A97
+P 9350 4200
+F 0 "R57" H 9350 4150 50  0000 C CNN
+F 1 "51" H 9550 4050 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 3790 60  0001 L CNN
+F 3 "" H 9350 3700 60  0001 L CNN
+F 4 "8-Jun-2000" H 9350 3610 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 9350 3520 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 9350 3430 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 9350 3340 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 9350 3250 60  0001 L CNN "字段8"
+F 9 "100" H 9450 4196 50  0001 C CNN "字段9"
+F 10 "Yes" H 9350 3070 60  0001 L CNN "字段10"
+F 11 "=Value" H 9350 2980 60  0001 L CNN "字段11"
+	1    9350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4100 9050 4100
+Wire Wire Line
+	8750 4300 8850 4300
+Wire Wire Line
+	8750 3750 8850 3750
+Wire Wire Line
+	8850 3750 8850 4300
+Connection ~ 8850 4300
+Wire Wire Line
+	8850 4300 9250 4300
+Wire Wire Line
+	8750 3550 9050 3550
+Wire Wire Line
+	9050 3550 9050 4100
+Connection ~ 9050 4100
+Wire Wire Line
+	9050 4100 9250 4100
+Text GLabel 8350 3550 0    50   Input ~ 0
+DSI_HS_1_P
+Text GLabel 8350 3750 0    50   Input ~ 0
+DSI_HS_1_N
+Text GLabel 8350 4100 0    50   Input ~ 0
+DSI_LP_1_P
+Text GLabel 8350 4300 0    50   Input ~ 0
+DSI_LP_1_N
+Wire Wire Line
+	9050 4100 9050 4550
+Wire Wire Line
+	9050 4550 9500 4550
+Wire Wire Line
+	8850 4300 8850 4700
+Wire Wire Line
+	8850 4700 9500 4700
+Text GLabel 9500 4550 2    50   Input ~ 0
+DSI_L1_P
+Text GLabel 9500 4700 2    50   Input ~ 0
+DSI_L1_N
+$Comp
+L power:GND #PWR0158
+U 1 1 5FAB7AB1
+P 9950 4300
+F 0 "#PWR0158" H 9950 4050 50  0001 C CNN
+F 1 "GND" V 9955 4172 50  0000 R CNN
+F 2 "" H 9950 4300 50  0001 C CNN
+F 3 "" H 9950 4300 50  0001 C CNN
+	1    9950 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 4300 9800 4300
+Wire Wire Line
+	9650 4100 9800 4100
+Wire Wire Line
+	9800 4100 9800 4300
+Connection ~ 9800 4300
+Wire Wire Line
+	9800 4300 9950 4300
+$Comp
+L dsi_shield:Res1 R58
+U 1 1 5FABC9F4
+P 4950 5100
+F 0 "R58" H 4950 5050 50  0000 C CNN
+F 1 "160" H 5150 4950 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 4690 60  0001 L CNN
+F 3 "" H 4950 4600 60  0001 L CNN
+F 4 "8-Jun-2000" H 4950 4510 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4950 4420 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4950 4330 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4950 4240 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4950 4150 60  0001 L CNN "字段8"
+F 9 "100" H 5050 5096 50  0001 C CNN "字段9"
+F 10 "Yes" H 4950 3970 60  0001 L CNN "字段10"
+F 11 "=Value" H 4950 3880 60  0001 L CNN "字段11"
+	1    4950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R59
+U 1 1 5FABCA02
+P 4950 5300
+F 0 "R59" H 4950 5250 50  0000 C CNN
+F 1 "160" H 5150 5150 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 4890 60  0001 L CNN
+F 3 "" H 4950 4800 60  0001 L CNN
+F 4 "8-Jun-2000" H 4950 4710 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4950 4620 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4950 4530 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4950 4440 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4950 4350 60  0001 L CNN "字段8"
+F 9 "100" H 5050 5296 50  0001 C CNN "字段9"
+F 10 "Yes" H 4950 4170 60  0001 L CNN "字段10"
+F 11 "=Value" H 4950 4080 60  0001 L CNN "字段11"
+	1    4950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R60
+U 1 1 5FABCA10
+P 4950 5650
+F 0 "R60" H 5000 5600 50  0000 C CNN
+F 1 "22" H 5150 5500 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 5240 60  0001 L CNN
+F 3 "" H 4950 5150 60  0001 L CNN
+F 4 "8-Jun-2000" H 4950 5060 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4950 4970 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4950 4880 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4950 4790 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4950 4700 60  0001 L CNN "字段8"
+F 9 "100" H 5050 5646 50  0001 C CNN "字段9"
+F 10 "Yes" H 4950 4520 60  0001 L CNN "字段10"
+F 11 "=Value" H 4950 4430 60  0001 L CNN "字段11"
+	1    4950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R61
+U 1 1 5FABCA1E
+P 4950 5850
+F 0 "R61" H 5000 5800 50  0000 C CNN
+F 1 "22" H 5150 5700 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 5440 60  0001 L CNN
+F 3 "" H 4950 5350 60  0001 L CNN
+F 4 "8-Jun-2000" H 4950 5260 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 4950 5170 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 4950 5080 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 4950 4990 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 4950 4900 60  0001 L CNN "字段8"
+F 9 "100" H 5050 5846 50  0001 C CNN "字段9"
+F 10 "Yes" H 4950 4720 60  0001 L CNN "字段10"
+F 11 "=Value" H 4950 4630 60  0001 L CNN "字段11"
+	1    4950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R62
+U 1 1 5FABCA2C
+P 5850 5650
+F 0 "R62" H 5850 5600 50  0000 C CNN
+F 1 "51" H 6050 5500 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5850 5240 60  0001 L CNN
+F 3 "" H 5850 5150 60  0001 L CNN
+F 4 "8-Jun-2000" H 5850 5060 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 5850 4970 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 5850 4880 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 5850 4790 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 5850 4700 60  0001 L CNN "字段8"
+F 9 "100" H 5950 5646 50  0001 C CNN "字段9"
+F 10 "Yes" H 5850 4520 60  0001 L CNN "字段10"
+F 11 "=Value" H 5850 4430 60  0001 L CNN "字段11"
+	1    5850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R63
+U 1 1 5FABCA3A
+P 5850 5850
+F 0 "R63" H 5850 5800 50  0000 C CNN
+F 1 "51" H 6050 5700 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5850 5440 60  0001 L CNN
+F 3 "" H 5850 5350 60  0001 L CNN
+F 4 "8-Jun-2000" H 5850 5260 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 5850 5170 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 5850 5080 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 5850 4990 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 5850 4900 60  0001 L CNN "字段8"
+F 9 "100" H 5950 5846 50  0001 C CNN "字段9"
+F 10 "Yes" H 5850 4720 60  0001 L CNN "字段10"
+F 11 "=Value" H 5850 4630 60  0001 L CNN "字段11"
+	1    5850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5750 5550 5750
+Wire Wire Line
+	5250 5950 5350 5950
+Wire Wire Line
+	5250 5400 5350 5400
+Wire Wire Line
+	5350 5400 5350 5950
+Connection ~ 5350 5950
+Wire Wire Line
+	5350 5950 5750 5950
+Wire Wire Line
+	5250 5200 5550 5200
+Wire Wire Line
+	5550 5200 5550 5750
+Connection ~ 5550 5750
+Wire Wire Line
+	5550 5750 5750 5750
+Text GLabel 4850 5200 0    50   Input ~ 0
+DSI_HS_2_P
+Text GLabel 4850 5400 0    50   Input ~ 0
+DSI_HS_2_N
+Text GLabel 4850 5750 0    50   Input ~ 0
+DSI_LP_2_P
+Text GLabel 4850 5950 0    50   Input ~ 0
+DSI_LP_2_N
+Wire Wire Line
+	5550 5750 5550 6200
+Wire Wire Line
+	5550 6200 6000 6200
+Wire Wire Line
+	5350 5950 5350 6350
+Wire Wire Line
+	5350 6350 6000 6350
+Text GLabel 6000 6200 2    50   Input ~ 0
+DSI_L2_P
+Text GLabel 6000 6350 2    50   Input ~ 0
+DSI_L2_N
+$Comp
+L power:GND #PWR0192
+U 1 1 5FABCA54
+P 6450 5950
+F 0 "#PWR0192" H 6450 5700 50  0001 C CNN
+F 1 "GND" V 6455 5822 50  0000 R CNN
+F 2 "" H 6450 5950 50  0001 C CNN
+F 3 "" H 6450 5950 50  0001 C CNN
+	1    6450 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 5950 6300 5950
+Wire Wire Line
+	6150 5750 6300 5750
+Wire Wire Line
+	6300 5750 6300 5950
+Connection ~ 6300 5950
+Wire Wire Line
+	6300 5950 6450 5950
+$Comp
+L dsi_shield:Res1 R64
+U 1 1 5FAC4188
+P 8450 5050
+F 0 "R64" H 8450 5000 50  0000 C CNN
+F 1 "160" H 8650 4900 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 4640 60  0001 L CNN
+F 3 "" H 8450 4550 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 4460 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 4370 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 4280 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 4190 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 4100 60  0001 L CNN "字段8"
+F 9 "100" H 8550 5046 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 3920 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 3830 60  0001 L CNN "字段11"
+	1    8450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R65
+U 1 1 5FAC4196
+P 8450 5250
+F 0 "R65" H 8450 5200 50  0000 C CNN
+F 1 "160" H 8650 5100 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 4840 60  0001 L CNN
+F 3 "" H 8450 4750 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 4660 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 4570 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 4480 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 4390 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 4300 60  0001 L CNN "字段8"
+F 9 "100" H 8550 5246 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 4120 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 4030 60  0001 L CNN "字段11"
+	1    8450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R66
+U 1 1 5FAC41A4
+P 8450 5600
+F 0 "R66" H 8500 5550 50  0000 C CNN
+F 1 "22" H 8650 5450 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 5190 60  0001 L CNN
+F 3 "" H 8450 5100 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 5010 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 4920 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 4830 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 4740 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 4650 60  0001 L CNN "字段8"
+F 9 "100" H 8550 5596 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 4470 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 4380 60  0001 L CNN "字段11"
+	1    8450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R67
+U 1 1 5FAC41B2
+P 8450 5800
+F 0 "R67" H 8500 5750 50  0000 C CNN
+F 1 "22" H 8650 5650 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 5390 60  0001 L CNN
+F 3 "" H 8450 5300 60  0001 L CNN
+F 4 "8-Jun-2000" H 8450 5210 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 8450 5120 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 8450 5030 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 8450 4940 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 8450 4850 60  0001 L CNN "字段8"
+F 9 "100" H 8550 5796 50  0001 C CNN "字段9"
+F 10 "Yes" H 8450 4670 60  0001 L CNN "字段10"
+F 11 "=Value" H 8450 4580 60  0001 L CNN "字段11"
+	1    8450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R68
+U 1 1 5FAC41C0
+P 9350 5600
+F 0 "R68" H 9350 5550 50  0000 C CNN
+F 1 "51" H 9550 5450 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 5190 60  0001 L CNN
+F 3 "" H 9350 5100 60  0001 L CNN
+F 4 "8-Jun-2000" H 9350 5010 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 9350 4920 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 9350 4830 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 9350 4740 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 9350 4650 60  0001 L CNN "字段8"
+F 9 "100" H 9450 5596 50  0001 C CNN "字段9"
+F 10 "Yes" H 9350 4470 60  0001 L CNN "字段10"
+F 11 "=Value" H 9350 4380 60  0001 L CNN "字段11"
+	1    9350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dsi_shield:Res1 R69
+U 1 1 5FAC41CE
+P 9350 5800
+F 0 "R69" H 9350 5750 50  0000 C CNN
+F 1 "51" H 9550 5650 60  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 5390 60  0001 L CNN
+F 3 "" H 9350 5300 60  0001 L CNN
+F 4 "8-Jun-2000" H 9350 5210 60  0001 L CNN "字段4"
+F 5 "17-Jul-2002" H 9350 5120 60  0001 L CNN "字段5"
+F 6 "Re-released for DXP Platform." H 9350 5030 60  0001 L CNN "字段6"
+F 7 "AXIAL-0.3" H 9350 4940 60  0001 L CNN "字段7"
+F 8 "Altium Limited" H 9350 4850 60  0001 L CNN "字段8"
+F 9 "100" H 9450 5796 50  0001 C CNN "字段9"
+F 10 "Yes" H 9350 4670 60  0001 L CNN "字段10"
+F 11 "=Value" H 9350 4580 60  0001 L CNN "字段11"
+	1    9350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5700 9050 5700
+Wire Wire Line
+	8750 5900 8850 5900
+Wire Wire Line
+	8750 5350 8850 5350
+Wire Wire Line
+	8850 5350 8850 5900
+Connection ~ 8850 5900
+Wire Wire Line
+	8850 5900 9250 5900
+Wire Wire Line
+	8750 5150 9050 5150
+Wire Wire Line
+	9050 5150 9050 5700
+Connection ~ 9050 5700
+Wire Wire Line
+	9050 5700 9250 5700
+Text GLabel 8350 5150 0    50   Input ~ 0
+DSI_HS_3_P
+Text GLabel 8350 5350 0    50   Input ~ 0
+DSI_HS_3_N
+Text GLabel 8350 5700 0    50   Input ~ 0
+DSI_LP_3_P
+Text GLabel 8350 5900 0    50   Input ~ 0
+DSI_LP_3_N
+Wire Wire Line
+	9050 5700 9050 6150
+Wire Wire Line
+	9050 6150 9500 6150
+Wire Wire Line
+	8850 5900 8850 6300
+Wire Wire Line
+	8850 6300 9500 6300
+Text GLabel 9500 6150 2    50   Input ~ 0
+DSI_L3_P
+Text GLabel 9500 6300 2    50   Input ~ 0
+DSI_L3_N
+$Comp
+L power:GND #PWR0193
+U 1 1 5FAC41E8
+P 9950 5900
+F 0 "#PWR0193" H 9950 5650 50  0001 C CNN
+F 1 "GND" V 9955 5772 50  0000 R CNN
+F 2 "" H 9950 5900 50  0001 C CNN
+F 3 "" H 9950 5900 50  0001 C CNN
+	1    9950 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 5900 9800 5900
+Wire Wire Line
+	9650 5700 9800 5700
+Wire Wire Line
+	9800 5700 9800 5900
+Connection ~ 9800 5900
+Wire Wire Line
+	9800 5900 9950 5900
 $EndSCHEMATC

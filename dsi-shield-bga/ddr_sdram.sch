@@ -1,0 +1,849 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dsi_shield:MT46V32M16P-5B_F IC10
+U 1 1 59956E83
+P 7650 4450
+F 0 "IC10" H 4500 7425 50  0000 C CNN
+F 1 "MT46V32M16P-5B:F" H 4875 7325 60  0000 C CNN
+F 2 "dsi_shield:TSOP66" H 7650 3400 60  0001 L CNN
+F 3 "" H 7650 3310 60  0001 L CNN
+F 4 "Value" H 7650 4450 60  0001 C CNN "Fieldname"
+F 5 "MT46V32M16P-5B:F" H 7650 3220 60  0001 L CNN "Field4"
+F 6 "Yes" H 7650 3130 60  0001 L CNN "Field5"
+F 7 "MT46V32M16P-5B:F" H 7650 3040 60  0001 L CNN "Field6"
+	1    7650 4450
+	1    0    0    -1  
+$EndComp
+Text Label 4100 1850 0    60   ~ 0
+SDRAM_A0
+Text Label 4100 1950 0    60   ~ 0
+SDRAM_A1
+Text Label 4100 2050 0    60   ~ 0
+SDRAM_A2
+Text Label 4100 2150 0    60   ~ 0
+SDRAM_A3
+Text Label 4100 2250 0    60   ~ 0
+SDRAM_A4
+Text Label 4100 2350 0    60   ~ 0
+SDRAM_A5
+Text Label 4100 2450 0    60   ~ 0
+SDRAM_A6
+Text Label 4100 2550 0    60   ~ 0
+SDRAM_A7
+Text Label 4100 2650 0    60   ~ 0
+SDRAM_A8
+Text Label 4100 2750 0    60   ~ 0
+SDRAM_A9
+Text Label 4100 2850 0    60   ~ 0
+SDRAM_A10
+Text Label 4100 2950 0    60   ~ 0
+SDRAM_A11
+Text Label 4100 3050 0    60   ~ 0
+SDRAM_A12
+Entry Wire Line
+	3900 1750 4000 1850
+Entry Wire Line
+	3900 1850 4000 1950
+Entry Wire Line
+	3900 1950 4000 2050
+Entry Wire Line
+	3900 2050 4000 2150
+Entry Wire Line
+	3900 2150 4000 2250
+Entry Wire Line
+	3900 2250 4000 2350
+Entry Wire Line
+	3900 2350 4000 2450
+Entry Wire Line
+	3900 2450 4000 2550
+Entry Wire Line
+	3900 2550 4000 2650
+Entry Wire Line
+	3900 2650 4000 2750
+Entry Wire Line
+	3900 2750 4000 2850
+Entry Wire Line
+	3900 2850 4000 2950
+Entry Wire Line
+	3900 2950 4000 3050
+Text Label 3200 1750 0    60   ~ 0
+SDRAM_A[0..14]
+Text HLabel 3100 1750 0    60   Input ~ 0
+SDRAM_A[0..14]
+Text HLabel 3100 3150 0    60   Input ~ 0
+SDRAM_BA[0..1]
+Text Label 3150 3150 0    60   ~ 0
+SDRAM_BA[0..1]
+Text Label 4050 3350 0    60   ~ 0
+SDRAM_BA0
+Text Label 4050 3450 0    60   ~ 0
+SDRAM_BA1
+Entry Wire Line
+	3900 3250 4000 3350
+Entry Wire Line
+	3900 3350 4000 3450
+Text HLabel 3900 3750 0    60   Input ~ 0
+SDRAM_RAS_N
+Text HLabel 3900 3850 0    60   Input ~ 0
+SDRAM_CAS_N
+Text HLabel 3900 3950 0    60   Input ~ 0
+SDRAM_WE_N
+Text HLabel 3900 4050 0    60   Input ~ 0
+SDRAM_CS_N
+Text HLabel 3900 4350 0    60   Input ~ 0
+SDRAM_CKE
+Text HLabel 3900 4650 0    60   Input ~ 0
+SDRAM_CLK_P
+Text HLabel 3900 4750 0    60   Input ~ 0
+SDRAM_CLK_N
+Wire Wire Line
+	6450 1250 6450 1350
+Wire Wire Line
+	5450 1250 5550 1250
+Wire Wire Line
+	5450 1050 5450 1250
+Connection ~ 5450 1250
+Wire Wire Line
+	5550 1350 5550 1250
+Connection ~ 5550 1250
+Wire Wire Line
+	5650 1350 5650 1250
+Connection ~ 5650 1250
+Wire Wire Line
+	6050 1350 6050 1250
+Connection ~ 6050 1250
+Wire Wire Line
+	6150 1350 6150 1250
+Connection ~ 6150 1250
+Wire Wire Line
+	6250 1350 6250 1250
+Connection ~ 6250 1250
+Wire Wire Line
+	6350 1350 6350 1250
+Connection ~ 6350 1250
+Wire Wire Line
+	4000 1850 4650 1850
+Wire Wire Line
+	4000 1950 4650 1950
+Wire Wire Line
+	4000 2050 4650 2050
+Wire Wire Line
+	4000 2150 4650 2150
+Wire Wire Line
+	4000 2250 4650 2250
+Wire Wire Line
+	4000 2350 4650 2350
+Wire Wire Line
+	4000 2450 4650 2450
+Wire Wire Line
+	4000 2550 4650 2550
+Wire Wire Line
+	4000 2650 4650 2650
+Wire Wire Line
+	4000 2750 4650 2750
+Wire Wire Line
+	4000 2850 4650 2850
+Wire Wire Line
+	4000 2950 4650 2950
+Wire Wire Line
+	4000 3050 4650 3050
+Wire Bus Line
+	3100 1750 3900 1750
+Wire Wire Line
+	4000 3350 4650 3350
+Wire Wire Line
+	4000 3450 4650 3450
+Wire Bus Line
+	3900 3150 3100 3150
+Wire Wire Line
+	4650 3750 3900 3750
+Wire Wire Line
+	4650 3850 3900 3850
+Wire Wire Line
+	4650 3950 3900 3950
+Wire Wire Line
+	4650 4050 3900 4050
+Wire Wire Line
+	4650 4350 3900 4350
+Wire Wire Line
+	5450 5250 5450 5350
+Wire Wire Line
+	5450 5350 5550 5350
+Wire Wire Line
+	6450 5350 6450 5250
+Wire Wire Line
+	5550 5250 5550 5350
+Connection ~ 5550 5350
+Wire Wire Line
+	5650 5250 5650 5350
+Connection ~ 5650 5350
+Wire Wire Line
+	6050 5250 6050 5350
+Connection ~ 6050 5350
+Wire Wire Line
+	6150 5250 6150 5350
+Connection ~ 6150 5350
+Wire Wire Line
+	6250 5250 6250 5350
+Connection ~ 6250 5350
+Wire Wire Line
+	6350 5250 6350 5350
+Connection ~ 6350 5350
+Connection ~ 5450 5350
+$Comp
+L power:GND #PWR094
+U 1 1 5995E2A8
+P 5450 5500
+F 0 "#PWR094" H 5450 5250 50  0001 C CNN
+F 1 "GND" H 5455 5327 50  0000 C CNN
+F 2 "" H 5450 5500 50  0001 C CNN
+F 3 "" H 5450 5500 50  0001 C CNN
+	1    5450 5500
+	1    0    0    -1  
+$EndComp
+Text Label 7400 2050 0    60   ~ 0
+SDRAM_DQ0
+Text Label 7400 2150 0    60   ~ 0
+SDRAM_DQ1
+Text Label 7400 2250 0    60   ~ 0
+SDRAM_DQ2
+Text Label 7400 2350 0    60   ~ 0
+SDRAM_DQ3
+Text Label 7400 2450 0    60   ~ 0
+SDRAM_DQ4
+Text Label 7400 2550 0    60   ~ 0
+SDRAM_DQ5
+Text Label 7400 2650 0    60   ~ 0
+SDRAM_DQ6
+Text Label 7400 2750 0    60   ~ 0
+SDRAM_DQ7
+Text Label 7400 2850 0    60   ~ 0
+SDRAM_DQ8
+Text Label 7400 2950 0    60   ~ 0
+SDRAM_DQ9
+Text Label 7400 3050 0    60   ~ 0
+SDRAM_DQ10
+Text Label 7400 3150 0    60   ~ 0
+SDRAM_DQ11
+Text Label 7400 3250 0    60   ~ 0
+SDRAM_DQ12
+Text Label 7400 3350 0    60   ~ 0
+SDRAM_DQ13
+Text Label 7400 3450 0    60   ~ 0
+SDRAM_DQ14
+Text Label 7400 3550 0    60   ~ 0
+SDRAM_DQ15
+Wire Wire Line
+	7250 2050 8100 2050
+Wire Wire Line
+	7250 2150 8100 2150
+Wire Wire Line
+	7250 2250 8100 2250
+Wire Wire Line
+	7250 2350 8100 2350
+Wire Wire Line
+	7250 2450 8100 2450
+Wire Wire Line
+	7250 2550 8100 2550
+Wire Wire Line
+	7250 2650 8100 2650
+Wire Wire Line
+	7250 2750 8100 2750
+Wire Wire Line
+	7250 2850 8100 2850
+Wire Wire Line
+	7250 2950 8100 2950
+Wire Wire Line
+	7250 3050 8100 3050
+Wire Wire Line
+	7250 3150 8100 3150
+Wire Wire Line
+	7250 3250 8100 3250
+Wire Wire Line
+	7250 3350 8100 3350
+Wire Wire Line
+	7250 3450 8100 3450
+Wire Wire Line
+	7250 3550 8100 3550
+Entry Wire Line
+	8100 2050 8200 2150
+Entry Wire Line
+	8100 2150 8200 2250
+Entry Wire Line
+	8100 2250 8200 2350
+Entry Wire Line
+	8100 2350 8200 2450
+Entry Wire Line
+	8100 2450 8200 2550
+Entry Wire Line
+	8100 2550 8200 2650
+Entry Wire Line
+	8100 2650 8200 2750
+Entry Wire Line
+	8100 2750 8200 2850
+Entry Wire Line
+	8100 2850 8200 2950
+Entry Wire Line
+	8100 2950 8200 3050
+Entry Wire Line
+	8100 3050 8200 3150
+Entry Wire Line
+	8100 3150 8200 3250
+Entry Wire Line
+	8100 3250 8200 3350
+Entry Wire Line
+	8100 3350 8200 3450
+Entry Wire Line
+	8100 3450 8200 3550
+Entry Wire Line
+	8100 3550 8200 3650
+Wire Bus Line
+	8200 3750 9200 3750
+Text Label 8300 3750 0    60   ~ 0
+SDRAM_DQ[0..15]
+Text HLabel 9200 3750 2    60   BiDi ~ 0
+SDRAM_DQ[0..15]
+Text HLabel 9200 4100 2    60   BiDi ~ 0
+SDRAM_DQM[0..1]
+Text HLabel 9200 4500 2    60   BiDi ~ 0
+SDRAM_DQS[0..1]
+Wire Wire Line
+	7250 3850 8100 3850
+Wire Wire Line
+	7250 3950 8100 3950
+Text Label 7400 3850 0    60   ~ 0
+SDRAM_DQM0
+Text Label 7400 3950 0    60   ~ 0
+SDRAM_DQM1
+Text Label 7400 4250 0    60   ~ 0
+SDRAM_DQS0
+Text Label 7400 4350 0    60   ~ 0
+SDRAM_DQS1
+Wire Wire Line
+	7250 4250 8100 4250
+Wire Wire Line
+	7250 4350 8100 4350
+Entry Wire Line
+	8100 3850 8200 3950
+Entry Wire Line
+	8100 3950 8200 4050
+Entry Wire Line
+	8100 4250 8200 4350
+Entry Wire Line
+	8100 4350 8200 4450
+Wire Bus Line
+	8200 4100 9200 4100
+Wire Bus Line
+	8200 4500 9200 4500
+Text Label 8300 4100 0    60   ~ 0
+SDRAM_DQM[0..1]
+Text Label 8300 4500 0    60   ~ 0
+SDRAM_DQS[0..1]
+Wire Wire Line
+	7250 4650 7800 4650
+Text HLabel 9200 4650 2    60   UnSpc ~ 0
+DDR_VREF
+Wire Wire Line
+	7800 4650 7800 5550
+Wire Wire Line
+	7800 5550 8100 5550
+Connection ~ 8400 5550
+Wire Wire Line
+	8100 5450 8100 5550
+Connection ~ 8100 5550
+Wire Wire Line
+	8100 4800 8100 4950
+Wire Wire Line
+	8100 4950 8400 4950
+Connection ~ 7800 4650
+Connection ~ 8100 4950
+Wire Wire Line
+	8100 6050 8100 6150
+Wire Wire Line
+	8100 6150 8400 6150
+Connection ~ 8100 6150
+$Comp
+L power:GND #PWR096
+U 1 1 5996C96D
+P 8100 6250
+F 0 "#PWR096" H 8100 6000 50  0001 C CNN
+F 1 "GND" H 8105 6077 50  0000 C CNN
+F 2 "" H 8100 6250 50  0001 C CNN
+F 3 "" H 8100 6250 50  0001 C CNN
+	1    8100 6250
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 6400 0    40   ~ 0
+Copyright 2013-2017 twl <twlostow@printf.cc>\n\nThis documentation describes Open Hardware and is licensed under\nthe CERN OHL v. 1.2. You may redistribute and modify this documentation\nunder the terms of the CERN OHL v.1.2. (http://ohwr.org/CERNOHL).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2\nfor applicable conditions.\n
+Wire Notes Line
+	8750 5750 8750 6450
+Wire Notes Line
+	8750 6450 11150 6450
+Wire Notes Line
+	11150 6450 11150 5750
+Wire Notes Line
+	11150 5750 8750 5750
+Text Notes 10000 6800 2    150  ~ 0
+HDMI DSI Shield
+Text Notes 9450 7000 2    100  ~ 0
+DDR SDRAM
+Text Notes 10800 7650 2    60   ~ 0
+2.2a
+Text Notes 8050 7500 2    60   ~ 0
+DDR SDRAM
+Wire Wire Line
+	6400 6100 6400 6000
+Wire Wire Line
+	6400 6000 6050 6000
+Wire Wire Line
+	3200 5800 3200 6000
+Wire Wire Line
+	3550 6000 3550 6100
+Connection ~ 3550 6000
+Wire Wire Line
+	3950 6000 3950 6100
+Connection ~ 3950 6000
+Wire Wire Line
+	4300 6100 4300 6000
+Connection ~ 4300 6000
+Wire Wire Line
+	4650 6100 4650 6000
+Connection ~ 4650 6000
+Wire Wire Line
+	5000 6100 5000 6000
+Connection ~ 5000 6000
+Wire Wire Line
+	5350 6100 5350 6000
+Connection ~ 5350 6000
+Wire Wire Line
+	5700 6100 5700 6000
+Connection ~ 5700 6000
+Wire Wire Line
+	6050 6100 6050 6000
+Connection ~ 6050 6000
+Wire Wire Line
+	3200 6400 3200 6500
+Wire Wire Line
+	3200 6500 3550 6500
+Wire Wire Line
+	6400 6500 6400 6400
+Wire Wire Line
+	3550 6400 3550 6500
+Connection ~ 3550 6500
+Wire Wire Line
+	3950 6400 3950 6500
+Connection ~ 3950 6500
+Wire Wire Line
+	4300 6400 4300 6500
+Connection ~ 4300 6500
+Wire Wire Line
+	4650 6500 4650 6400
+Connection ~ 4650 6500
+Wire Wire Line
+	5000 6400 5000 6500
+Connection ~ 5000 6500
+Wire Wire Line
+	5350 6500 5350 6400
+Connection ~ 5350 6500
+Wire Wire Line
+	5700 6400 5700 6500
+Connection ~ 5700 6500
+Wire Wire Line
+	6050 6500 6050 6400
+Connection ~ 6050 6500
+Connection ~ 3200 6000
+$Comp
+L power:GND #PWR098
+U 1 1 59976555
+P 3200 6600
+F 0 "#PWR098" H 3200 6350 50  0001 C CNN
+F 1 "GND" H 3205 6427 50  0000 C CNN
+F 2 "" H 3200 6600 50  0001 C CNN
+F 3 "" H 3200 6600 50  0001 C CNN
+	1    3200 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 6500
+Wire Wire Line
+	5450 1250 5450 1350
+Wire Wire Line
+	5550 1250 5650 1250
+Wire Wire Line
+	5650 1250 6050 1250
+Wire Wire Line
+	6050 1250 6150 1250
+Wire Wire Line
+	6150 1250 6250 1250
+Wire Wire Line
+	6250 1250 6350 1250
+Wire Wire Line
+	6350 1250 6450 1250
+Wire Wire Line
+	5550 5350 5650 5350
+Wire Wire Line
+	5650 5350 6050 5350
+Wire Wire Line
+	6050 5350 6150 5350
+Wire Wire Line
+	6150 5350 6250 5350
+Wire Wire Line
+	6250 5350 6350 5350
+Wire Wire Line
+	6350 5350 6450 5350
+Wire Wire Line
+	5450 5350 5450 5500
+Wire Wire Line
+	8100 5550 8400 5550
+Wire Wire Line
+	8100 5550 8100 5650
+Wire Wire Line
+	7800 4650 9200 4650
+Wire Wire Line
+	8100 4950 8100 5050
+Wire Wire Line
+	8100 6150 8100 6250
+Wire Wire Line
+	3550 6000 3200 6000
+Wire Wire Line
+	3950 6000 3550 6000
+Wire Wire Line
+	4300 6000 3950 6000
+Wire Wire Line
+	4650 6000 4300 6000
+Wire Wire Line
+	5000 6000 4650 6000
+Wire Wire Line
+	5350 6000 5000 6000
+Wire Wire Line
+	5700 6000 5350 6000
+Wire Wire Line
+	6050 6000 5700 6000
+Wire Wire Line
+	3550 6500 3950 6500
+Wire Wire Line
+	3950 6500 4300 6500
+Wire Wire Line
+	4300 6500 4650 6500
+Wire Wire Line
+	4650 6500 5000 6500
+Wire Wire Line
+	5000 6500 5350 6500
+Wire Wire Line
+	5350 6500 5700 6500
+Wire Wire Line
+	5700 6500 6050 6500
+Wire Wire Line
+	6050 6500 6400 6500
+Wire Wire Line
+	3200 6000 3200 6100
+Wire Wire Line
+	3200 6500 3200 6600
+$Comp
+L dsi_shield:Res1 R38
+U 1 1 5F363923
+P 8200 5150
+F 0 "R38" V 8254 5100 50  0000 L CNN
+F 1 "1k" V 8200 4950 60  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 4740 60  0001 L CNN
+F 3 "" H 8200 4650 60  0001 L CNN
+F 4 "8-Jun-2000" H 8200 4560 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 8200 4470 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 8200 4380 60  0001 L CNN "Field6"
+F 7 "AXIAL-0.3" H 8200 4290 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 8200 4200 60  0001 L CNN "Field8"
+F 9 "1k" V 8345 5100 50  0001 L CNN "Field9"
+F 10 "Yes" H 8200 4020 60  0001 L CNN "Field10"
+F 11 "=Value" H 8200 3930 60  0001 L CNN "Field11"
+	1    8200 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Res1 R39
+U 1 1 5F36516A
+P 8200 5750
+F 0 "R39" V 8254 5700 50  0000 L CNN
+F 1 "1k" V 8400 5550 60  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 5340 60  0001 L CNN
+F 3 "" H 8200 5250 60  0001 L CNN
+F 4 "8-Jun-2000" H 8200 5160 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 8200 5070 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 8200 4980 60  0001 L CNN "Field6"
+F 7 "AXIAL-0.3" H 8200 4890 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 8200 4800 60  0001 L CNN "Field8"
+F 9 "1k" V 8345 5700 50  0001 L CNN "Field9"
+F 10 "Yes" H 8200 4620 60  0001 L CNN "Field10"
+F 11 "=Value" H 8200 4530 60  0001 L CNN "Field11"
+	1    8200 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C40
+U 1 1 5F36B3F9
+P 8500 5200
+F 0 "C40" V 8500 5100 50  0000 L CNN
+F 1 "100n" V 8650 5100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8500 4730 60  0001 L CNN
+F 3 "" H 8500 4640 60  0001 L CNN
+F 4 "8-Jun-2000" H 8500 4550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 8500 4460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 8500 4370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 8500 4280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 8500 4190 60  0001 L CNN "Field8"
+F 9 "Yes" H 8500 4100 60  0001 L CNN "Field9"
+F 10 "100n" V 8595 5210 50  0001 L CNN "Field10"
+F 11 "=Value" H 8500 3920 60  0001 L CNN "Field11"
+	1    8500 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C41
+U 1 1 5F36C085
+P 8500 5800
+F 0 "C41" V 8500 5700 50  0000 L CNN
+F 1 "100n" V 8650 5700 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8500 5330 60  0001 L CNN
+F 3 "" H 8500 5240 60  0001 L CNN
+F 4 "8-Jun-2000" H 8500 5150 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 8500 5060 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 8500 4970 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 8500 4880 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 8500 4790 60  0001 L CNN "Field8"
+F 9 "Yes" H 8500 4700 60  0001 L CNN "Field9"
+F 10 "100n" V 8595 5810 50  0001 L CNN "Field10"
+F 11 "=Value" H 8500 4520 60  0001 L CNN "Field11"
+	1    8500 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 4950 8400 5100
+Wire Wire Line
+	8400 5400 8400 5550
+Wire Wire Line
+	8400 5550 8400 5700
+Wire Wire Line
+	8400 6000 8400 6150
+$Comp
+L dsi_shield:Cap C39
+U 1 1 5F383015
+P 6500 6200
+F 0 "C39" V 6500 6100 50  0000 L CNN
+F 1 "10n" V 6600 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 5730 60  0001 L CNN
+F 3 "" H 6500 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 6500 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 6500 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 6500 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 6500 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 6500 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 6500 5100 60  0001 L CNN "Field9"
+F 10 "10n" V 6595 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 6500 4920 60  0001 L CNN "Field11"
+	1    6500 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C38
+U 1 1 5F383C2B
+P 6150 6200
+F 0 "C38" V 6150 6100 50  0000 L CNN
+F 1 "10n" V 6250 6150 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6150 5730 60  0001 L CNN
+F 3 "" H 6150 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 6150 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 6150 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 6150 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 6150 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 6150 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 6150 5100 60  0001 L CNN "Field9"
+F 10 "10n" V 6245 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 6150 4920 60  0001 L CNN "Field11"
+	1    6150 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C37
+U 1 1 5F3842EC
+P 5800 6200
+F 0 "C37" V 5800 6100 50  0000 L CNN
+F 1 "10n" V 5900 6150 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 5730 60  0001 L CNN
+F 3 "" H 5800 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 5800 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 5800 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 5800 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 5800 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 5800 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 5800 5100 60  0001 L CNN "Field9"
+F 10 "10n" V 5895 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 5800 4920 60  0001 L CNN "Field11"
+	1    5800 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C36
+U 1 1 5F3848FE
+P 5450 6200
+F 0 "C36" V 5450 6100 50  0000 L CNN
+F 1 "100n" V 5550 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5450 5730 60  0001 L CNN
+F 3 "" H 5450 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 5450 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 5450 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 5450 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 5450 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 5450 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 5450 5100 60  0001 L CNN "Field9"
+F 10 "100n" V 5545 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 5450 4920 60  0001 L CNN "Field11"
+	1    5450 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C35
+U 1 1 5F385091
+P 5100 6200
+F 0 "C35" V 5100 6100 50  0000 L CNN
+F 1 "100n" V 5200 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5100 5730 60  0001 L CNN
+F 3 "" H 5100 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 5100 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 5100 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 5100 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 5100 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 5100 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 5100 5100 60  0001 L CNN "Field9"
+F 10 "100n" V 5195 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 5100 4920 60  0001 L CNN "Field11"
+	1    5100 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C34
+U 1 1 5F385473
+P 4750 6200
+F 0 "C34" V 4750 6100 50  0000 L CNN
+F 1 "100n" V 4850 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 5730 60  0001 L CNN
+F 3 "" H 4750 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 4750 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 4750 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 4750 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 4750 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 4750 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 4750 5100 60  0001 L CNN "Field9"
+F 10 "100n" V 4845 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 4750 4920 60  0001 L CNN "Field11"
+	1    4750 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C33
+U 1 1 5F385AA8
+P 4400 6200
+F 0 "C33" V 4400 6100 50  0000 L CNN
+F 1 "100n" V 4500 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4400 5730 60  0001 L CNN
+F 3 "" H 4400 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 4400 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 4400 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 4400 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 4400 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 4400 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 4400 5100 60  0001 L CNN "Field9"
+F 10 "100n" V 4495 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 4400 4920 60  0001 L CNN "Field11"
+	1    4400 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C32
+U 1 1 5F385F16
+P 4050 6200
+F 0 "C32" V 4050 6100 50  0000 L CNN
+F 1 "100n" V 4150 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4050 5730 60  0001 L CNN
+F 3 "" H 4050 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 4050 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 4050 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 4050 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 4050 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 4050 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 4050 5100 60  0001 L CNN "Field9"
+F 10 "100n" V 4145 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 4050 4920 60  0001 L CNN "Field11"
+	1    4050 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C31
+U 1 1 5F386479
+P 3650 6200
+F 0 "C31" V 3650 6100 50  0000 L CNN
+F 1 "100n" V 3750 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 5730 60  0001 L CNN
+F 3 "" H 3650 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 3650 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 3650 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 3650 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 3650 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 3650 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 3650 5100 60  0001 L CNN "Field9"
+F 10 "100n" V 3745 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 3650 4920 60  0001 L CNN "Field11"
+	1    3650 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dsi_shield:Cap C30
+U 1 1 5F3868C4
+P 3300 6200
+F 0 "C30" V 3300 6100 50  0000 L CNN
+F 1 "1u" V 3400 6100 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 5730 60  0001 L CNN
+F 3 "" H 3300 5640 60  0001 L CNN
+F 4 "8-Jun-2000" H 3300 5550 60  0001 L CNN "Field4"
+F 5 "17-Jul-2002" H 3300 5460 60  0001 L CNN "Field5"
+F 6 "Re-released for DXP Platform." H 3300 5370 60  0001 L CNN "Field6"
+F 7 "RAD-0.3" H 3300 5280 60  0001 L CNN "Field7"
+F 8 "Altium Limited" H 3300 5190 60  0001 L CNN "Field8"
+F 9 "Yes" H 3300 5100 60  0001 L CNN "Field9"
+F 10 "1uF" V 3395 6210 50  0001 L CNN "Field10"
+F 11 "=Value" H 3300 4920 60  0001 L CNN "Field11"
+	1    3300 6200
+	0    1    1    0   
+$EndComp
+Text GLabel 5450 1050 0    50   Input ~ 0
+V_DDR
+Text GLabel 8100 4800 2    50   Input ~ 0
+V_DDR
+Text GLabel 3200 5800 0    50   Input ~ 0
+V_DDR
+Wire Wire Line
+	3900 4650 4650 4650
+Wire Wire Line
+	3900 4750 4650 4750
+Wire Bus Line
+	3900 3150 3900 3350
+Wire Bus Line
+	8200 3950 8200 4100
+Wire Bus Line
+	8200 4350 8200 4500
+Wire Bus Line
+	3900 1750 3900 2950
+Wire Bus Line
+	8200 2150 8200 3750
+$EndSCHEMATC

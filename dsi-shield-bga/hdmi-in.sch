@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -14,41 +14,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1600 1100 1800 1100
+	1350 1100 1800 1100
 Wire Wire Line
-	1600 1300 1800 1300
+	1350 1300 1800 1300
 Wire Wire Line
-	1600 1700 1800 1700
+	1350 1700 1800 1700
 Wire Wire Line
-	1600 1900 1800 1900
+	1350 1900 1800 1900
 Wire Wire Line
 	2800 1100 3000 1100
 Wire Wire Line
 	3800 1300 3500 1300
 Wire Wire Line
-	1600 1400 1800 1400
+	1350 1400 1800 1400
 Wire Wire Line
-	1600 1600 1800 1600
-Text GLabel 1600 1100 0    50   Input ~ 0
-TMDS2_P
-Text GLabel 1600 1300 0    50   Input ~ 0
-TMDS2_N
-Text GLabel 1600 1400 0    50   Input ~ 0
-TMDS1_P
-Text GLabel 1600 1600 0    50   Input ~ 0
-TMDS1_N
-Text GLabel 1600 1700 0    50   Input ~ 0
-TMDS0_P
-Text GLabel 1600 1900 0    50   Input ~ 0
-TMDS0_N
+	1350 1600 1800 1600
 Wire Wire Line
-	1600 2000 1800 2000
+	1350 2000 1800 2000
 Wire Wire Line
-	1600 2200 1800 2200
-Text GLabel 1600 2000 0    50   Input ~ 0
-TMDS_CLK_P
-Text GLabel 1600 2200 0    50   Input ~ 0
-TMDS_CLK_N
+	1350 2200 1800 2200
 Text GLabel 3000 1100 2    50   Input ~ 0
 HDMI_CEC
 Text GLabel 3800 1300 2    50   Input ~ 0
@@ -197,69 +181,37 @@ F 6 "IP4292CZ10" H 9400 2374 50  0000 C CNN "字段6"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 4900 6500 4900
+	6100 4900 6500 4900
 Wire Wire Line
-	6300 5000 6500 5000
+	6100 5000 6500 5000
 Wire Wire Line
-	6300 5200 6500 5200
+	6100 5200 6500 5200
 Wire Wire Line
-	6300 5300 6500 5300
+	6100 5300 6500 5300
 Wire Wire Line
-	7300 4900 7100 4900
+	7500 4900 7100 4900
 Wire Wire Line
-	7300 5000 7100 5000
+	7500 5000 7100 5000
 Wire Wire Line
-	7300 5200 7100 5200
+	7500 5200 7100 5200
 Wire Wire Line
-	7300 5300 7100 5300
-Text GLabel 6300 4900 0    50   Input ~ 0
-TMDS1_N
-Text GLabel 6300 5000 0    50   Input ~ 0
-TMDS1_P
-Text GLabel 6300 5200 0    50   Input ~ 0
-TMDS2_N
-Text GLabel 6300 5300 0    50   Input ~ 0
-TMDS2_P
-Text GLabel 7300 4900 2    50   Input ~ 0
-TMDS1_N
-Text GLabel 7300 5000 2    50   Input ~ 0
-TMDS1_P
-Text GLabel 7300 5200 2    50   Input ~ 0
-TMDS2_N
-Text GLabel 7300 5300 2    50   Input ~ 0
-TMDS2_P
+	7500 5300 7100 5300
 Wire Wire Line
-	8950 4800 9100 4800
+	8650 4800 9100 4800
 Wire Wire Line
-	8950 4900 9100 4900
+	8650 4900 9100 4900
 Wire Wire Line
-	8950 5100 9100 5100
+	8650 5100 9100 5100
 Wire Wire Line
-	8950 5200 9100 5200
+	8650 5200 9100 5200
 Wire Wire Line
-	9850 4800 9700 4800
+	10150 4800 9700 4800
 Wire Wire Line
-	9850 4900 9700 4900
+	10150 4900 9700 4900
 Wire Wire Line
-	9850 5100 9700 5100
+	10150 5100 9700 5100
 Wire Wire Line
-	9850 5200 9700 5200
-Text GLabel 8950 4800 0    50   Input ~ 0
-TMDS_CLK_N
-Text GLabel 8950 4900 0    50   Input ~ 0
-TMDS_CLK_P
-Text GLabel 8950 5100 0    50   Input ~ 0
-TMDS0_N
-Text GLabel 8950 5200 0    50   Input ~ 0
-TMDS0_P
-Text GLabel 9850 4800 2    50   Input ~ 0
-TMDS_CLK_N
-Text GLabel 9850 4900 2    50   Input ~ 0
-TMDS_CLK_P
-Text GLabel 9850 5100 2    50   Input ~ 0
-TMDS0_N
-Text GLabel 9850 5200 2    50   Input ~ 0
-TMDS0_P
+	10150 5200 9700 5200
 $Comp
 L power:GND #PWR0102
 U 1 1 5F143380
@@ -581,8 +533,6 @@ F 3 "" H 2200 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 3950 2200 4000
-Text GLabel 2050 3500 0    50   Input ~ 0
-HPD_NOTIF
 Wire Wire Line
 	2450 3350 2450 3000
 Connection ~ 2450 3000
@@ -660,8 +610,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 3550 4150 3550
 Connection ~ 4150 3550
-Text GLabel 4250 3550 2    50   Input ~ 0
-FPGA_SDA
 Wire Wire Line
 	3650 2500 3500 2500
 Wire Wire Line
@@ -702,8 +650,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 2400 4250 2500
 Connection ~ 4250 2500
-Text GLabel 4400 2500 2    50   Input ~ 0
-FPGA_SCL
 $Comp
 L dsi_shield:Res1 R8
 U 1 1 5F1D6BF7
@@ -818,6 +764,78 @@ Wire Wire Line
 Connection ~ 6200 2900
 Wire Wire Line
 	6200 2900 6150 2900
-Text GLabel 6450 2900 2    50   Input ~ 0
+Text Label 6150 4900 0    50   ~ 0
+TMDS1_N
+Text Label 6150 5000 0    50   ~ 0
+TMDS1_P
+Text Label 6150 5200 0    50   ~ 0
+TMDS2_N
+Text Label 6150 5300 0    50   ~ 0
+TMDS2_P
+Text Label 7150 4900 0    50   ~ 0
+TMDS1_N
+Text Label 7150 5000 0    50   ~ 0
+TMDS1_P
+Text Label 7150 5200 0    50   ~ 0
+TMDS2_N
+Text Label 7150 5300 0    50   ~ 0
+TMDS2_P
+Text Label 8650 4800 0    50   ~ 0
+TMDS_CLK_N
+Text Label 8650 4900 0    50   ~ 0
+TMDS_CLK_P
+Text Label 8700 5100 0    50   ~ 0
+TMDS0_N
+Text Label 8700 5200 0    50   ~ 0
+TMDS0_P
+Text Label 9700 4800 0    50   ~ 0
+TMDS_CLK_N
+Text Label 9700 4900 0    50   ~ 0
+TMDS_CLK_P
+Text Label 9700 5100 0    50   ~ 0
+TMDS0_N
+Text Label 9700 5200 0    50   ~ 0
+TMDS0_P
+Text Label 1400 1100 0    50   ~ 0
+TMDS2_P
+Text Label 1400 1300 0    50   ~ 0
+TMDS2_N
+Text Label 1400 1400 0    50   ~ 0
+TMDS1_P
+Text Label 1400 1600 0    50   ~ 0
+TMDS1_N
+Text Label 1400 1700 0    50   ~ 0
+TMDS0_P
+Text Label 1400 1900 0    50   ~ 0
+TMDS0_N
+Text Label 1350 2000 0    50   ~ 0
+TMDS_CLK_P
+Text Label 1350 2200 0    50   ~ 0
+TMDS_CLK_N
+Text HLabel 1350 1100 0    50   Output ~ 0
+TMDS2_P
+Text HLabel 1350 1300 0    50   Output ~ 0
+TMDS2_N
+Text HLabel 1350 1400 0    50   Output ~ 0
+TMDS1_P
+Text HLabel 1350 1600 0    50   Output ~ 0
+TMDS1_N
+Text HLabel 1350 1700 0    50   Output ~ 0
+TMDS0_P
+Text HLabel 1350 1900 0    50   Output ~ 0
+TMDS0_N
+Text HLabel 1350 2000 0    50   Output ~ 0
+TMDS_CLK_P
+Text HLabel 1350 2200 0    50   Output ~ 0
+TMDS_CLK_N
+Text HLabel 4400 2500 2    50   BiDi ~ 0
+SCL
+Text HLabel 4250 3550 2    50   BiDi ~ 0
+SDA
+Text HLabel 2050 3500 0    50   Output ~ 0
+HPD_NOTIFY
+Text HLabel 6450 2900 2    50   Input ~ 0
 HPD_EN
+NoConn ~ 2800 1200
+NoConn ~ 4700 5800
 $EndSCHEMATC
