@@ -61,4 +61,26 @@ F 3 "" H 1400 1350 50  0001 C CNN
 	1    1400 1350
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x36_Odd_Even J4
+U 1 1 5F43B64D
+P 3950 3950
+F 0 "J4" H 4000 5867 50  0000 C CNN
+F 1 "Conn_02x36_Odd_Even" H 4000 5776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x36_P2.54mm_Vertical" H 3950 3950 50  0001 C CNN
+F 3 "~" H 3950 3950 50  0001 C CNN
+	1    3950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x36_Odd_Even J5
+U 1 1 5F440AF6
+P 4900 3950
+F 0 "J5" H 4950 5867 50  0000 C CNN
+F 1 "Conn_02x36_Odd_Even" H 4950 5776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x36_P2.54mm_Vertical" H 4900 3950 50  0001 C CNN
+F 3 "~" H 4900 3950 50  0001 C CNN
+	1    4900 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

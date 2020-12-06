@@ -1706,9 +1706,9 @@ Text Label 1100 3450 0    50   ~ 0
 DBG_RX
 Text HLabel 1050 3450 0    50   Input ~ 0
 DBG_RX
-Text GLabel 6150 3750 2    50   Input ~ 0
+Text GLabel 6150 5150 2    50   Input ~ 0
 DSI_HS_CLK_P
-Text GLabel 6150 3850 2    50   Input ~ 0
+Text GLabel 6150 5250 2    50   Input ~ 0
 DSI_HS_CLK_N
 $Comp
 L power:+1V8 #PWR0156
@@ -1732,10 +1732,106 @@ F 3 "" H 1800 1000 50  0001 C CNN
 	1    1800 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 5050 2    50   Input ~ 0
+Text GLabel 6150 5850 2    50   Input ~ 0
 DSI_LP_CLK_N
-Text GLabel 6150 4950 2    50   Input ~ 0
+Text GLabel 6150 5750 2    50   Input ~ 0
 DSI_LP_CLK_P
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5F33AAA6
+P 4450 13850
+F 0 "J3" H 4500 14267 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4500 14176 50  0000 C CNN
+F 2 "mybays_connector:debugger_2x05_P1.27mm_Vertical" H 4450 13850 50  0001 C CNN
+F 3 "~" H 4450 13850 50  0001 C CNN
+	1    4450 13850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 13650 0    50   Input ~ 0
+FPGA_TCK
+Text GLabel 4250 13750 0    50   Input ~ 0
+FPGA_TDO
+Text GLabel 4250 13850 0    50   Input ~ 0
+FPGA_TMS
+Text GLabel 4250 14050 0    50   Input ~ 0
+FPGA_TDI
+$Comp
+L power:GND #PWR0194
+U 1 1 5F3413B0
+P 4900 13650
+F 0 "#PWR0194" H 4900 13400 50  0001 C CNN
+F 1 "GND" H 4905 13477 50  0000 C CNN
+F 2 "" H 4900 13650 50  0001 C CNN
+F 3 "" H 4900 13650 50  0001 C CNN
+	1    4900 13650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0195
+U 1 1 5F341C21
+P 4900 14050
+F 0 "#PWR0195" H 4900 13800 50  0001 C CNN
+F 1 "GND" H 4905 13877 50  0000 C CNN
+F 2 "" H 4900 14050 50  0001 C CNN
+F 3 "" H 4900 14050 50  0001 C CNN
+	1    4900 14050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0196
+U 1 1 5F3449ED
+P 5250 13750
+F 0 "#PWR0196" H 5250 13600 50  0001 C CNN
+F 1 "+3V3" H 5265 13923 50  0000 C CNN
+F 2 "" H 5250 13750 50  0001 C CNN
+F 3 "" H 5250 13750 50  0001 C CNN
+	1    5250 13750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 13650 4900 13650
+Wire Wire Line
+	4750 13750 5250 13750
+Wire Wire Line
+	4750 14050 4900 14050
+Text GLabel 4250 13950 0    50   Input ~ 0
+IO1
+Text GLabel 4750 13950 2    50   Input ~ 0
+IO0
+Text GLabel 4750 13850 2    50   Input ~ 0
+IO2
+Text GLabel 6150 6250 2    50   Input ~ 0
+DSI_LP_3_N
+Text GLabel 6150 6150 2    50   Input ~ 0
+DSI_LP_3_P
+Text GLabel 6150 6050 2    50   Input ~ 0
+DSI_HS_3_N
+Text GLabel 6150 5950 2    50   Input ~ 0
+DSI_HS_3_P
+Text GLabel 6150 5450 2    50   Input ~ 0
+DSI_LP_2_N
+Text GLabel 6150 5350 2    50   Input ~ 0
+DSI_LP_2_P
+Text GLabel 6150 5650 2    50   Input ~ 0
+DSI_HS_2_N
+Text GLabel 6150 5550 2    50   Input ~ 0
+DSI_HS_2_P
+Text GLabel 6150 5050 2    50   Input ~ 0
+DSI_LP_1_N
+Text GLabel 6150 4950 2    50   Input ~ 0
+DSI_LP_1_P
+Text GLabel 6150 3650 2    50   Input ~ 0
+DSI_HS_1_N
+Text GLabel 6150 3550 2    50   Input ~ 0
+DSI_HS_1_P
+Text GLabel 6150 3450 2    50   Input ~ 0
+DSI_LP_0_N
+Text GLabel 6150 3350 2    50   Input ~ 0
+DSI_LP_0_P
+Text GLabel 6150 3250 2    50   Input ~ 0
+DSI_HS_0_N
+Text GLabel 6150 3150 2    50   Input ~ 0
+DSI_HS_0_P
 Wire Bus Line
 	19700 4450 19700 4600
 Wire Wire Line
